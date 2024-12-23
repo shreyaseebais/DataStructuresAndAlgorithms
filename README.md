@@ -216,7 +216,7 @@ function isEvenOrOdd(num){
 
 105. ### Find the number closest to n and divisible by m
 
-For ex. num=17 , mul=4. Find a number closest num which is multiple of mul 
+For ex. num=17 , mul=4. Find a number closest num which is multiple of mul. Answer should be 16.
 
 ```javascript
 let num = 19;
@@ -239,6 +239,9 @@ function closestNumber(num, multipleOf){
 **[⬆ Back to Top](#table-of-contents)**
 
 106. ### Dice Problem
+
+You are given a cubic dice with 6 faces. All the individual faces have a number printed on them. The numbers are in the range of 1 to 6, like any ordinary dice. You will be provided with a face of this cube, your task is to guess the number on the opposite face of the cube.
+
 ```javascript
 
 ```
@@ -249,8 +252,15 @@ function closestNumber(num, multipleOf){
 **[⬆ Back to Top](#table-of-contents)**
 
 107. ### Simple Interest
-```javascript
+Given Principal p, Rate r and Time t, the task is to calculate Simple Interest.
 
+```javascript
+function simpleInterest(p, r, t) {
+    return (p * r * t) / 100;
+}
+
+let p = 10000, r = 10, t = 3;
+console.log(simpleInterest(p, r, t));
 ```
 
 
