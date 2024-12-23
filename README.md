@@ -4,10 +4,10 @@
 
 | No. | Questions                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------| 
-| 1 | [Check for Binary] (#check-for-binary)                                                             |       
-| 1 | [Camel Case Conversion] (#)                                                                       |
-| 1 | [Binary Substrings with Corners as 1s] (#)                                                        |
-| 1 | [Check for Panagram] (#)                                                                          |
+| 1 | [Check for Binary](#Check-for-Binary) |                                                           |       
+| 1 | [Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
+| 1 | [Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
+| 1 | [Check for Panagram](#Check-for-Panagram) |                                                       |
 | 1 | [Check for Palindrome] (#)                                                                        |
 | 1 | [Check for Substring] (#)                                                                         |
 | 1 | [Check for Subsequence] (#)                                                                       |
