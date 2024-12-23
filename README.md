@@ -4,7 +4,7 @@
 
 | No. | Questions                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------| 
-| 1 | [Check for Binary] (#Checkfor-Binary)                                                             |       
+| 1 | [Check for Binary] (#check-for-binary)                                                             |       
 | 1 | [Camel Case Conversion] (#)                                                                       |
 | 1 | [Binary Substrings with Corners as 1s] (#)                                                        |
 | 1 | [Check for Panagram] (#)                                                                          |
