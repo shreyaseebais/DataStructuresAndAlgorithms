@@ -105,6 +105,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+----------------------------------------------------------------------------------------------------------------------
 1. ### What is a Data Structure?
 A data structure is a specialized way of organizing, managing, and storing data so it can be accessed and modified efficiently.
 
@@ -144,6 +145,8 @@ An algorithm is a step-by-step procedure or formula for solving a problem. It ta
 
 
 **[⬆ Back to Top](#table-of-contents)**
+
+--------------------------------------------------------------------------------------------------------------------------
 
 101. ### Check Even or Odd
 ```javascript
@@ -425,9 +428,17 @@ Given two positive numbers x and y, check if y is a power of x or not.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-113. ### 
+113. ### Factorial of a Number
 ```javascript
-   
+    console.log(factorial(5))
+
+    function factorial(num){
+        let factorial = 1;
+        for(let i=num; i>1; i--){
+            factorial*= i;
+        }
+        return factorial;
+    }
 ```
 
 
@@ -477,7 +488,7 @@ Given two positive numbers x and y, check if y is a power of x or not.
 **[⬆ Back to Top](#table-of-contents)**
 
 201. ### BASIC DATASTRUCTURE INTERVIEW QUESTIONS
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 1. Array Questions
 * What is an array? How is it different from a linked list?
 * How do you find the largest/smallest element in an array?
