@@ -20,24 +20,24 @@
 | 14 | [](#) |
 
 
-| No. | Questions                                       |
-| --- | ---------     ----------------------------------| 
-| 1 | [Check for Binary]                                |       
-| 1 | [Camel Case Conversion]                           |
-| 1 | [Binary Substrings with Corners as 1s]            |
-| 1 | [Check for Panagram]                              |
-| 1 | [Check for Palindrome]                            |
-| 1 | [Check for Substring]                             |
-| 1 | [Check for Subsequence]                           |
-| 1 | [Check for Anagrams]                              |
-| 1 | [Check for K-Anagrams]                            |
-| 1 | [Duplicates in a String]                          |
-| 1 | [Longest Substring Between Equals]                |
-| 1 | [Left Rotate]                                     |
-| 1 | [Check for Rotation]                              |
-| 1 | [Validate an IP address]                          |
-| 1 | [Count strings with consecutive 1’s]              |
-| 1 | [Generate all binary strings from given pattern]  |
+| No. | Questions                                        |
+| --- | -------------------------------------------------| 
+| 1 | [Check for Binary] (#)                             |       
+| 1 | [Camel Case Conversion] (#)                        |
+| 1 | [Binary Substrings with Corners as 1s] (#)         |
+| 1 | [Check for Panagram] (#)                           |
+| 1 | [Check for Palindrome] (#)                         |
+| 1 | [Check for Substring] (#)                          |
+| 1 | [Check for Subsequence] (#)                        |
+| 1 | [Check for Anagrams] (#)                           |
+| 1 | [Check for K-Anagrams] (#)                         |
+| 1 | [Duplicates in a String] (#)                            |
+| 1 | [Longest Substring Between Equals] (#)                 |
+| 1 | [Left Rotate] (#)                                      |
+| 1 | [Check for Rotation] (#)                               |
+| 1 | [Validate an IP address] (#)                           |
+| 1 | [Count strings with consecutive 1’s] (#)               |
+| 1 | [Generate all binary strings from given pattern] (#)   |
 | 1 | [Smallest and Largest Word in a String]                          |
 | 1 | [Count number of equal pairs in a string]                          |
 | 1 | [Second most repeated word in a sequence]                          |
