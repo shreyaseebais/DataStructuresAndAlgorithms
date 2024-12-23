@@ -14,8 +14,8 @@
 | 8 | [](#)                                                                                             |
 | 9 | [](#)                                                                                             |
 | 10 | [](#)                                                                                            |
-| 101 | [Data Structure](#what-is-a-data-structure)                                                     |
-| 102 | [Algorithm](#what-is-an-algorithm)                                                              |
+| 101 | [Even or Odd](#check-even-or-odd)                                                               |
+| 102 | [Multiplication table](#multiplication-table)                                                   |
 | 103 | [](#)                                                                                           |
 | 104 | [](#)                                                                                           |
 | 105 | [](#)                                                                                           |
@@ -157,7 +157,15 @@ function isEvenOrOdd(num){
 
 102. ### Multiplication Table
 ```javascript
+    const tableUpto = 10;
+    const tableOf = 7;
+    multiplicationTable(tableOf, tableUpto);
 
+    function multiplicationTable(tableOf, tableUpto){
+        for(let i=1; i<=tableUpto; i++){
+            console.log(tableOf , " x ", i , " = " ,tableOf * i)
+        }
+    }
 ```
 
 
@@ -165,9 +173,18 @@ function isEvenOrOdd(num){
 
 **[⬆ Back to Top](#table-of-contents)**
 
-103. ### Sum of Natural Numbers
+103. ### Find Sum of first n Natural Numbers
 ```javascript
+    function findSum(n)
+    {
+    let sum = 0;
+    for (let x = 1; x <= n; x++) 
+        sum = sum + x;
+    return sum;
+    }
 
+    let n = 5;
+    console.log(findSum(n));
 ```
 
 
@@ -175,9 +192,21 @@ function isEvenOrOdd(num){
 
 **[⬆ Back to Top](#table-of-contents)**
 
-104. ### Swap Two Numbers
+104. ### How to swap two numbers without using a temporary variable?
 ```javascript
+    let x = 10;
+    let y = 15
 
+    swapNumbers(x,y);
+
+    function swapNumbers(i,j){
+        console.log("Numbers before : ",  i , "  " , j)
+        let temp = 0;
+        temp = i;
+        i = j;
+        j = temp;
+        console.log("Exchanged numbers : ", i , "  " , j)
+    }
 ```
 
 
