@@ -4,32 +4,53 @@
 
 | No. | Questions                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------| 
-| 1 | [Check for Binary](#Check-for-Binary) |                                                           |       
-| 1 | [Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
-| 1 | [Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
-| 1 | [Check for Panagram](#Check-for-Panagram) |                                                       |
-| 1 | [Check for Palindrome] (#)                                                                        |
-| 1 | [Check for Substring] (#)                                                                         |
-| 1 | [Check for Subsequence] (#)                                                                       |
-| 1 | [Check for Anagrams] (#)                                                                          |
-| 1 | [Check for K-Anagrams] (#)                                                                        |  
-| 1 | [Duplicates in a String] (#)                                                                      |
-| 1 | [Longest Substring Between Equals] (#)                                                            |
-| 1 | [Left Rotate] (#)                                                                                 |
-| 1 | [Check for Rotation] (#)                                                                          |
-| 1 | [Validate an IP address] (#)                                                                      |
-| 1 | [Count strings with consecutive 1’s] (#)                                                          |
-| 1 | [Generate all binary strings from given pattern] (#)                                              |
-| 1 | [Smallest and Largest Word in a String]                                                           |
-| 1 | [Count number of equal pairs in a string]                                                         |
-| 1 | [Second most repeated word in a sequence]                                                         |
-| 1 | [All strings by placing spaces]                                                                   |
-| 1 | [Sort string of characters]                                                                       |
-| 1 | [Char Frequencies in Order of Occurrence]                                                         |
-| 1 | [Char Frequencies in Alphabetical order]                                                          |
-| 1 | [URLify a String]                                                                                 |
-| 1 | [First Repeating Character]                                                                       |
-| 1 | [First Non-Repeating Character]                                                                   |
+
+| 1 | [Data Structure](#what-is-a-data-structure) |
+| 2 | [Algorithm](#what-is-an-algorithm) |
+| 3 | [](#) |
+| 4 | [](#) |
+| 5 | [](#) |
+| 6 | [](#) |
+| 7 | [](#) |
+| 8 | [](#) |
+| 9 | [](#) |
+| 10 | [](#) |
+| 101 | [Data Structure](#what-is-a-data-structure) |
+| 102 | [Algorithm](#what-is-an-algorithm) |
+| 103 | [](#) |
+| 104 | [](#) |
+| 105 | [](#) |
+| 106 | [](#) |
+| 107 | [](#) |
+| 108 | [](#) |
+| 109 | [](#) |
+| 110 | [](#) |
+| 201 | [Check for Binary](#Check-for-Binary) |                                                           |       
+| 202 | [Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
+| 203 | [Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
+| 204 | [Check for Panagram](#Check-for-Panagram) |                                                       |
+| 205 | [Check for Palindrome] (#)                                                                        |
+| 206 | [Check for Substring] (#)                                                                         |
+| 207 | [Check for Subsequence] (#)                                                                       |
+| 208 | [Check for Anagrams] (#)                                                                          |
+| 209 | [Check for K-Anagrams] (#)                                                                        |  
+| 210 | [Duplicates in a String] (#)                                                                      |
+| 211 | [Longest Substring Between Equals] (#)                                                            |
+| 212 | [Left Rotate] (#)                                                                                 |
+| 213 | [Check for Rotation] (#)                                                                          |
+| 214 | [Validate an IP address] (#)                                                                      |
+| 215 | [Count strings with consecutive 1’s] (#)                                                          |
+| 216 | [Generate all binary strings from given pattern] (#)                                              |
+| 217 | [Smallest and Largest Word in a String]                                                           |
+| 218 | [Count number of equal pairs in a string]                                                         |
+| 219 | [Second most repeated word in a sequence]                                                         |
+| 220 | [All strings by placing spaces]                                                                   |
+| 221 | [Sort string of characters]                                                                       |
+| 222 | [Char Frequencies in Order of Occurrence]                                                         |
+| 223 | [Char Frequencies in Alphabetical order]                                                          |
+| 224 | [URLify a String]                                                                                 |
+| 225 | [First Repeating Character]                                                                       |
+| 226 | [First Non-Repeating Character]                                                                   |
 | 1 | [K’th Non-repeating Character]                                                                    |
 | 1 | [Implement atoi]                                                                                  |
 | 1 | [Add 2 Binary Strings]                                                                            |
@@ -70,23 +91,11 @@
 | 1 | [Minimum number of bracket reversals needed to make an expression balanced]                          |
 | 1 | [Word Wrap problem ( Space optimized solution )]                          |
 | 1 | [Decode a string recursively encoded as count followed by substring ]           |
-| 1 | [](#) |
-| 2 | [](#) |
-| 3 | [](#) |
-| 4 | [](#) |
-| 5 | [](#) |
-| 6 | [](#) |
-| 7 | [](#) |
-| 8 | [](#) |
-| 9 | [](#) |
-| 10 | [](#) |
-| 11 | [](#) |
-| 12 | [](#) |
-| 13 | [](#) |
-| 14 | [](#) |
 
 
-1. ### Check for Binary
+
+
+**[⬆ Back to Top](#table-of-contents)**
 
 1. ### What is a Data Structure?
 A data structure is a specialized way of organizing, managing, and storing data so it can be accessed and modified efficiently.
@@ -111,6 +120,9 @@ A data structure is a specialized way of organizing, managing, and storing data 
 * Disjoint Set (Union-Find): Used for dynamic connectivity problems
 
 
+
+**[⬆ Back to Top](#table-of-contents)**
+
 2. ### What is an Algorithm?
 An algorithm is a step-by-step procedure or formula for solving a problem. It takes input, processes it, and produces output.
 
@@ -119,6 +131,11 @@ An algorithm is a step-by-step procedure or formula for solving a problem. It ta
 * Efficiency: Minimizes the use of computational resources (time and space).
 * Clarity: Easy to understand and implement.
 * Scalability: Performs well as the size of the input increases.
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
 
 101. ### Check Even or Odd
 ```javascript
@@ -135,19 +152,82 @@ function isEvenOrOdd(num){
 }
 ```
 
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 102. ### Multiplication Table
 ```javascript
 
 ```
 
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 103. ### Sum of Natural Numbers
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 104. ### Swap Two Numbers
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 105. ### Closest Number
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 106. ### Dice Problem
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 107. ### Simple Interest
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 108. ### Area of a Circle
- 
-201. ### BASIC DATASTRUCTURE QUESTIONS
+```javascript
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+201. ### BASIC DATASTRUCTURE INTERVIEW QUESTIONS
+
 1. Array Questions
 * What is an array? How is it different from a linked list?
 * How do you find the largest/smallest element in an array?
@@ -215,3 +295,5 @@ function isEvenOrOdd(num){
 * What are the applications of different data structures (e.g., stack, queue, tree, graph)?
 * How do you measure the efficiency of an algorithm (time complexity and space complexity)?
 * What is a dynamic data structure, and how is it different from a static one?
+
+**[⬆ Back to Top](#table-of-contents)**
