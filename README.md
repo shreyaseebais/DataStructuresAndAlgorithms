@@ -4,27 +4,26 @@
 
 | No. | Questions                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------| 
-
-| 1 | [Data Structure](#what-is-a-data-structure) |
-| 2 | [Algorithm](#what-is-an-algorithm) |
-| 3 | [](#) |
-| 4 | [](#) |
-| 5 | [](#) |
-| 6 | [](#) |
-| 7 | [](#) |
-| 8 | [](#) |
-| 9 | [](#) |
-| 10 | [](#) |
-| 101 | [Data Structure](#what-is-a-data-structure) |
-| 102 | [Algorithm](#what-is-an-algorithm) |
-| 103 | [](#) |
-| 104 | [](#) |
-| 105 | [](#) |
-| 106 | [](#) |
-| 107 | [](#) |
-| 108 | [](#) |
-| 109 | [](#) |
-| 110 | [](#) |
+| 1 | [Data Structure](#what-is-a-data-structure)                                                       |
+| 2 | [Algorithm](#what-is-an-algorithm)                                                                |
+| 3 | [](#)                                                                                             |
+| 4 | [](#)                                                                                             |
+| 5 | [](#)                                                                                             |
+| 6 | [](#)                                                                                             |
+| 7 | [](#)                                                                                             |
+| 8 | [](#)                                                                                             |
+| 9 | [](#)                                                                                             |
+| 10 | [](#)                                                                                            |
+| 101 | [Data Structure](#what-is-a-data-structure)                                                     |
+| 102 | [Algorithm](#what-is-an-algorithm)                                                              |
+| 103 | [](#)                                                                                           |
+| 104 | [](#)                                                                                           |
+| 105 | [](#)                                                                                           |
+| 106 | [](#)                                                                                           |
+| 107 | [](#)                                                                                           |
+| 108 | [](#)                                                                                           |
+| 109 | [](#)                                                                                           |
+| 110 | [](#)                                                                                           |
 | 201 | [Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
 | 203 | [Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
