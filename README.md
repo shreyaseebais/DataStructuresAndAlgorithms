@@ -214,9 +214,23 @@ function isEvenOrOdd(num){
 
 **[⬆ Back to Top](#table-of-contents)**
 
-105. ### Closest Number
-```javascript
+105. ### Find the number closest to n and divisible by m
 
+For ex. num=17 , mul=4. Find a number closest num which is multiple of mul 
+
+```javascript
+let num = 19;
+let mul = 4;
+const closest = closestNumber(num, mul)
+console.log('Closest number to ', num , "which is multiple of ", mul , " is : ", closest)
+
+function closestNumber(num, multipleOf){
+    let remainder = num % mul ; 
+    let closer1  = num - remainder;
+    let closer2  = num - remainder + mul;
+    
+    return (num-closer1 < closer2-num)?  closer1 : closer2;
+}
 ```
 
 
