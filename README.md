@@ -242,8 +242,18 @@ function closestNumber(num, multipleOf){
 
 You are given a cubic dice with 6 faces. All the individual faces have a number printed on them. The numbers are in the range of 1 to 6, like any ordinary dice. You will be provided with a face of this cube, your task is to guess the number on the opposite face of the cube.
 
-```javascript
+In a normal 6-faced dice, 1 is opposite to 6, 2 is opposite to 5, and 3 is opposite to 4. 
 
+```javascript
+    // 1-6  ,  2-5   ,  3-4
+
+    let input = 5;
+    oppositeFaceOfDice(input);
+
+    function oppositeFaceOfDice(n){
+            oppositeSide = 7-n ;
+            console.log('Opposite side of ', n , ' is : ' , oppositeSide)
+    }
 ```
 
 
@@ -270,7 +280,126 @@ console.log(simpleInterest(p, r, t));
 
 108. ### Area of a Circle
 ```javascript
+    let input = 5;
+    areaOfCircle(input);
 
+    function areaOfCircle(n){
+        area = Math.PI  *  Math.pow(n,2) ;
+        console.log('Area : ' , area)
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### Sum of the digits of a given number
+```javascript
+    let input = 123456;
+    sumOfDigits(input);
+
+    function sumOfDigits(num){
+        let sum =  0;
+        do{
+            let remainder = num%10;            
+            num -= remainder;                  
+            num = num/10;                    
+            sum +=remainder
+        }while(num>0)
+        console.log('Sum : ' , sum)
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+108. ### Check for Prime Number
+```javascript
+   const input = 29;
+
+    function isPrime(num){
+        if(num<1) return false;
+        if(num===2)  return true;
+        for(let i =2 ; i<Math.sqrt(num);i++){
+            if(num%i === 0) return false;
+        }
+        return true;
+    }
+
+    result=isPrime(input);
+    console.log('Is prime ?  ', result)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### Find numbers from 1 to N with exactly 3 divisors
+
+Check numbers from 1 to N with exactly 3 divisors
+Answer should be 16
+
+```javascript
+input = 20;
+console.log("Numbers having exactly three divisors:  " , hasThreeDivisors(input))
+
+function hasThreeDivisors(num){
+    let numbersDivisibleByThreeDiv = [];
+    if(num==1){
+        return 0;
+    }else if(num>=2){
+        for(let i=2; i<num; i++){
+            let count = 0;
+            for(let j=2; j<i; j++){
+                if(i%j == 0 ){
+                    count ++;
+                }
+            }
+            if(count==3)  {
+                numbersDivisibleByThreeDiv.push(i)
+                return numbersDivisibleByThreeDiv;
+            }
+        }
+    }else if(num<= -1){
+         for(let i=-2; i>=num; i--){
+            let count = 0;
+            for(let j=-2; j>i; j--){
+                if(i%j == 0 ){
+                    count ++;
+                }
+            }
+            if(count==3)  {
+                numbersDivisibleByThreeDiv.push(i)
+                return numbersDivisibleByThreeDiv;
+            }
+        }
+    }
+}
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### 
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### 
+```javascript
+   
 ```
 
 
