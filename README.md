@@ -259,6 +259,7 @@ In a normal 6-faced dice, 1 is opposite to 6, 2 is opposite to 5, and 3 is oppos
 
 
 
+
 **[⬆ Back to Top](#table-of-contents)**
 
 107. ### Simple Interest
@@ -294,7 +295,7 @@ console.log(simpleInterest(p, r, t));
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### Sum of the digits of a given number
+109. ### Sum of the digits of a given number
 ```javascript
     let input = 123456;
     sumOfDigits(input);
@@ -317,7 +318,7 @@ console.log(simpleInterest(p, r, t));
 **[⬆ Back to Top](#table-of-contents)**
 
 
-108. ### Check for Prime Number
+110. ### Check for Prime Number
 ```javascript
    const input = 29;
 
@@ -339,7 +340,7 @@ console.log(simpleInterest(p, r, t));
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### Find numbers from 1 to N with exactly 3 divisors
+111. ### Find numbers from 1 to N with exactly 3 divisors
 
 Check numbers from 1 to N with exactly 3 divisors
 Answer should be 16
@@ -351,7 +352,7 @@ console.log("Numbers having exactly three divisors:  " , hasThreeDivisors(input)
 function hasThreeDivisors(num){
     let numbersDivisibleByThreeDiv = [];
     if(num==1 || num==0){
-        return num;
+        return numbersDivisibleByThreeDiv;
     }else if(num>=2){
         for(let i=2; i<num; i++){
             let count = 0;
@@ -387,7 +388,35 @@ function hasThreeDivisors(num){
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+112. ### Check if a number is a power of another number
+
+Given two positive numbers x and y, check if y is a power of x or not.
+
+```javascript
+    console.log(isPowerOf(128, 2));
+    console.log(isPowerOf(125, 5));
+    console.log(isPowerOf(25, 5));
+    console.log(isPowerOf(125, 2));
+
+    function isPowerOf(num, powerOf){
+        do{
+            if(num/powerOf == powerOf) {
+                return 'Yes'
+            }else{
+                if(num % powerOf ==0) {
+                    num = num/powerOf 
+                }else return 'No'
+            }
+        }while(num>powerOf)
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+113. ### 
 ```javascript
    
 ```
@@ -396,6 +425,37 @@ function hasThreeDivisors(num){
 
 
 **[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+114. ### 
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+115. ### 
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+
 
 108. ### 
 ```javascript
