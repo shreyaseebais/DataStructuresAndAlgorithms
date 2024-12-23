@@ -350,8 +350,8 @@ console.log("Numbers having exactly three divisors:  " , hasThreeDivisors(input)
 
 function hasThreeDivisors(num){
     let numbersDivisibleByThreeDiv = [];
-    if(num==1){
-        return 0;
+    if(num==1 || num==0){
+        return num;
     }else if(num>=2){
         for(let i=2; i<num; i++){
             let count = 0;
