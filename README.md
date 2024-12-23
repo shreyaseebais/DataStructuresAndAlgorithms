@@ -2,61 +2,43 @@
 
 ### Table of Contents
 
-| No. | Questions |
-| --- | --------- |
-| 1 | [Check for Binary](#Check for Binary) |
-| 2 | [Camel Case Conversion](#Camel Case Conversion) |
-| 3 | [](#) |
-| 4 | [](#) |
-| 5 | [](#) |
-| 6 | [](#) |
-| 7 | [](#) |
-| 8 | [](#) |
-| 9 | [](#) |
-| 10 | [](#) |
-| 11 | [](#) |
-| 12 | [](#) |
-| 13 | [](#) |
-| 14 | [](#) |
-
-
-| No. | Questions                                        |
-| --- | -------------------------------------------------| 
-| 1 | [Check for Binary] (#)                             |       
-| 1 | [Camel Case Conversion] (#)                        |
-| 1 | [Binary Substrings with Corners as 1s] (#)         |
-| 1 | [Check for Panagram] (#)                           |
-| 1 | [Check for Palindrome] (#)                         |
-| 1 | [Check for Substring] (#)                          |
-| 1 | [Check for Subsequence] (#)                        |
-| 1 | [Check for Anagrams] (#)                           |
-| 1 | [Check for K-Anagrams] (#)                         |
-| 1 | [Duplicates in a String] (#)                            |
-| 1 | [Longest Substring Between Equals] (#)                 |
-| 1 | [Left Rotate] (#)                                      |
-| 1 | [Check for Rotation] (#)                               |
-| 1 | [Validate an IP address] (#)                           |
-| 1 | [Count strings with consecutive 1’s] (#)               |
-| 1 | [Generate all binary strings from given pattern] (#)   |
-| 1 | [Smallest and Largest Word in a String]                          |
-| 1 | [Count number of equal pairs in a string]                          |
-| 1 | [Second most repeated word in a sequence]                          |
-| 1 | [All strings by placing spaces]                          |
-| 1 | [Sort string of characters]                          |
-| 1 | [Char Frequencies in Order of Occurrence]                          |
-| 1 | [Char Frequencies in Alphabetical order]                          |
-| 1 | [URLify a String]                          |
-| 1 | [First Repeating Character]                          |
-| 1 | [First Non-Repeating Character]                          |
-| 1 | [K’th Non-repeating Character]                          |
-| 1 | [Implement atoi]                          |
-| 1 | [Add 2 Binary Strings]                          |
-| 1 | [Add n Binary Strings]                          |
-| 1 | [Multiply 2 Strings]                          |
-| 1 | [Divide large number]                          |
-| 1 | [Isomorphic Strings]                          |
-| 1 | [Remove Adjacent]                          |
-| 1 | [Roman to Integer]                          |
+| No. | Questions                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------| 
+| 1 | [Check for Binary] (#Checkfor-Binary)                                                             |       
+| 1 | [Camel Case Conversion] (#)                                                                       |
+| 1 | [Binary Substrings with Corners as 1s] (#)                                                        |
+| 1 | [Check for Panagram] (#)                                                                          |
+| 1 | [Check for Palindrome] (#)                                                                        |
+| 1 | [Check for Substring] (#)                                                                         |
+| 1 | [Check for Subsequence] (#)                                                                       |
+| 1 | [Check for Anagrams] (#)                                                                          |
+| 1 | [Check for K-Anagrams] (#)                                                                        |  
+| 1 | [Duplicates in a String] (#)                                                                      |
+| 1 | [Longest Substring Between Equals] (#)                                                            |
+| 1 | [Left Rotate] (#)                                                                                 |
+| 1 | [Check for Rotation] (#)                                                                          |
+| 1 | [Validate an IP address] (#)                                                                      |
+| 1 | [Count strings with consecutive 1’s] (#)                                                          |
+| 1 | [Generate all binary strings from given pattern] (#)                                              |
+| 1 | [Smallest and Largest Word in a String]                                                           |
+| 1 | [Count number of equal pairs in a string]                                                         |
+| 1 | [Second most repeated word in a sequence]                                                         |
+| 1 | [All strings by placing spaces]                                                                   |
+| 1 | [Sort string of characters]                                                                       |
+| 1 | [Char Frequencies in Order of Occurrence]                                                         |
+| 1 | [Char Frequencies in Alphabetical order]                                                          |
+| 1 | [URLify a String]                                                                                 |
+| 1 | [First Repeating Character]                                                                       |
+| 1 | [First Non-Repeating Character]                                                                   |
+| 1 | [K’th Non-repeating Character]                                                                    |
+| 1 | [Implement atoi]                                                                                  |
+| 1 | [Add 2 Binary Strings]                                                                            |
+| 1 | [Add n Binary Strings]                                                                            |
+| 1 | [Multiply 2 Strings]                                                                              |
+| 1 | [Divide large number]                                                                             |
+| 1 | [Isomorphic Strings]                                                                              |
+| 1 | [Remove Adjacent]                                                                                 |
+| 1 | [Roman to Integer]                                                                                |
 | 1 | [Interleaved Strings]                          |
 | 1 | [Permutations of a String]                          |
 | 1 | [Longest Palindromic Substring]                          |
@@ -102,3 +84,7 @@
 | 12 | [](#) |
 | 13 | [](#) |
 | 14 | [](#) |
+
+
+1. ### Check for Binary
+
