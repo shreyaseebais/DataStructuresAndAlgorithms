@@ -7,27 +7,36 @@
 | 1 | [Data Structure](#what-is-a-data-structure)                                                       |
 | 2 | [Algorithm](#what-is-an-algorithm)                                                                |
 | 3 | [](#)                                                                                             |
-| 4 | [](#)                                                                                             |
-| 5 | [](#)                                                                                             |
-| 6 | [](#)                                                                                             |
-| 7 | [](#)                                                                                             |
-| 8 | [](#)                                                                                             |
-| 9 | [](#)                                                                                             |
-| 10 | [](#)                                                                                            |
-| 101 | [Even or Odd](#check-even-or-odd)                                                               |
-| 102 | [Multiplication table](#multiplication-table)                                                   |
-| 103 | [](#)                                                                                           |
-| 104 | [](#)                                                                                           |
-| 105 | [](#)                                                                                           |
-| 106 | [](#)                                                                                           |
-| 107 | [](#)                                                                                           |
-| 108 | [](#)                                                                                           |
-| 109 | [](#)                                                                                           |
-| 110 | [](#)                                                                                           |
-| 201 | [Check for Binary](#Check-for-Binary) |                                                           |       
-| 202 | [Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
-| 203 | [Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
-| 204 | [Check for Panagram](#Check-for-Panagram) |                                                       |
+| 4 | [](#)                                                                                              |
+| 5 | [](#)                                                                                               |
+| 7 | [](#)                                                                                               |
+| 8 | [](#)                                                                                               |
+| 9 | [](#)                                                                                               |
+| 10 | [](#)                                                                                              |
+| 101 | [ Even or Odd](#check-even-or-odd)                                                                |
+| 102 | [ Multiplication table](#multiplication-table)                                                    |
+| 103 | [ Sum of first n Natural Numbers ](#find-sum-of-first-n-natural-numbers)                          |
+| 104 | [ Swap two numbers ](#how-to-swap-two-numbers-without-using-a-temporary-variable)                 |
+| 105 | [ Closest number divisible by m](#find-the-number-closest-to-n-and-divisible-by-m)                |
+| 106 | [ Dice Problem ](#dice-problem)                                                                   |
+| 107 | [ Simple Interest ](#simple-interest)                                                             |
+| 108 | [ Area of a Circle ](#area-of-a-circle)                                                           |
+| 109 | [ Sum of the digits of a given number ](#sum-of-the-digits-of-a-given-number)                     |
+| 110 | [ Prime Number ](#check-for-prime-number)                                                         |
+| 111 | [ Exactly 3 divisors](#find-numbers-from-1-to-n-with-exactly-3-divisors)                          |
+| 112 | [ Check if a number is a power of another number](#check-if-a-number-is-a-power-of-another-number)        |
+| 113 | [](#)                                                                                             |
+| 114 | [](#)                                                                                             |
+| 115 | [](#)                                                                                             |
+| 116 | [](#)                                                                                             |
+| 117 | [](#)                                                                                             |
+| 118 | [](#)                                                                                             |
+| 119 | [](#)                                                                                             |
+| 120 | [](#)                                                                                            |
+| 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
+| 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
+| 203 | [ Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
+| 204 | [ Check for Panagram](#Check-for-Panagram) |                                                       |
 | 205 | [Check for Palindrome] (#)                                                                        |
 | 206 | [Check for Substring] (#)                                                                         |
 | 207 | [Check for Subsequence] (#)                                                                       |
