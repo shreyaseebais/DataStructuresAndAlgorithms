@@ -477,7 +477,7 @@ Given two positive numbers x and y, check if y is a power of x or not.
 **[⬆ Back to Top](#table-of-contents)**
 
 201. ### BASIC DATASTRUCTURE INTERVIEW QUESTIONS
-
+--------------------------------------------------------------------------------
 1. Array Questions
 * What is an array? How is it different from a linked list?
 * How do you find the largest/smallest element in an array?
