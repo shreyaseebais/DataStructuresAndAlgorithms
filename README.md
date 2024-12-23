@@ -88,3 +88,130 @@
 
 1. ### Check for Binary
 
+1. ### What is a Data Structure?
+A data structure is a specialized way of organizing, managing, and storing data so it can be accessed and modified efficiently.
+
+**Types of Data Structures**
+1. Linear Data Structures: Data is arranged sequentially.
+* Array: Collection of elements stored at contiguous memory locations.
+* Linked List: Elements (nodes) are connected using pointers.
+* Stack: Follows the LIFO (Last In, First Out) principle.
+* Queue: Follows the FIFO (First In, First Out) principle.
+
+2. Non-Linear Data Structures: Data is arranged hierarchically or graphically.
+* Tree: Hierarchical structure with a root node and child nodes (e.g., binary tree).
+* Graph: Collection of nodes (vertices) connected by edges.
+* Heap: Specialized tree-based data structure.
+
+3. Hash-Based Structures:
+* Hash Table/Map: Stores key-value pairs for quick lookups.
+
+4. Other Advanced Structures:
+* Trie: Used for efficient string searching.
+* Disjoint Set (Union-Find): Used for dynamic connectivity problems
+
+
+2. ### What is an Algorithm?
+An algorithm is a step-by-step procedure or formula for solving a problem. It takes input, processes it, and produces output.
+
+**Characteristics of a Good Algorithm**
+* Correctness: Produces the right result for all valid inputs.
+* Efficiency: Minimizes the use of computational resources (time and space).
+* Clarity: Easy to understand and implement.
+* Scalability: Performs well as the size of the input increases.
+
+101. ### Check Even or Odd
+```javascript
+const input = 11
+console.log("Is the number even ?", isEvenOrOdd(input))
+
+function isEvenOrOdd(num){
+    console.log(num)
+    if(num %2 == 0 ){
+        return "Even"
+    }else{
+        return "Odd"
+    }
+}
+```
+
+102. ### Multiplication Table
+```javascript
+
+```
+
+103. ### Sum of Natural Numbers
+104. ### Swap Two Numbers
+105. ### Closest Number
+106. ### Dice Problem
+107. ### Simple Interest
+108. ### Area of a Circle
+ 
+201. ### BASIC DATASTRUCTURE QUESTIONS
+1. Array Questions
+* What is an array? How is it different from a linked list?
+* How do you find the largest/smallest element in an array?
+* How do you reverse an array?
+* Explain the difference between a one-dimensional and a multi-dimensional array.
+* Write a program to remove duplicates from an array.
+* How do you search for an element in an unsorted array? Explain the time complexity.
+* How do you find the missing number in an array of integers from 1 to n?
+2. String Questions
+* What is the difference between mutable and immutable strings in programming?
+* How do you check if two strings are anagrams of each other?
+* How do you reverse a string?
+* Write a program to count the number of vowels in a given string.
+* How do you check if a string is a palindrome?
+3. Linked List Questions
+* What is a linked list? How is it different from an array?
+* What are the types of linked lists?
+* How do you find the middle element of a singly linked list?
+* How do you detect a cycle in a linked list?
+* How do you reverse a linked list?
+* How do you merge two sorted linked lists into one sorted list?
+* Explain the difference between singly linked lists and doubly linked lists.
+4. Stack Questions
+* What is a stack? Explain its LIFO (Last In, First Out) property.
+* How do you implement a stack using arrays or linked lists?
+* What are the applications of a stack?
+* Write a program to check for balanced parentheses in an expression.
+* How do you implement a stack using two queues?
+5. Queue Questions
+* What is a queue? Explain its FIFO (First In, First Out) property.
+* What are the types of queues (e.g., simple queue, circular queue, priority queue)?
+* How do you implement a queue using arrays or linked lists?
+* What is a circular queue? How is it different from a normal queue?
+* How do you implement a queue using two stacks?
+6. Tree Questions
+* What is a binary tree? How is it different from a binary search tree (BST)?
+* What are the types of binary trees (e.g., full, complete, balanced)?
+* How do you perform an in-order, pre-order, and post-order traversal of a tree?
+* How do you find the height of a binary tree?
+* What is a balanced binary tree? How is it maintained?
+* How do you check if a binary tree is a BST?
+7. Graph Questions
+* What is a graph? How is it different from a tree?
+* What are the types of graphs (e.g., directed, undirected, weighted)?
+* How do you represent a graph (e.g., adjacency matrix, adjacency list)?
+* What is the difference between BFS (Breadth-First Search) and DFS (Depth-First Search)?
+* How do you detect a cycle in a graph?
+8. Hashing Questions
+* What is a hash table? How does it work?
+* What are collisions in hashing? How do you handle them (e.g., chaining, open addressing)?
+* What are the differences between a hash table and a hash map?
+* Write a program to find the first non-repeating character in a string using hashing.
+* How do you implement a hash table?
+9. Sorting and Searching Questions
+* What are some common sorting algorithms (e.g., Bubble Sort, Quick Sort, Merge Sort)?
+* What is the time complexity of different sorting algorithms?
+* How does binary search work? What are its prerequisites?
+* What is the difference between linear search and binary search?
+* How do you sort an array of integers in ascending/descending order?
+10. Miscellaneous Questions
+* What is the difference between a stack and a queue?
+* What is the difference between linear and non-linear data structures?
+* How does a priority queue work?
+* What are the advantages of using a linked list over an array?
+* What are the applications of different data structures (e.g., stack, queue, tree, graph)?
+* How do you measure the efficiency of an algorithm (time complexity and space complexity)?
+* What is a dynamic data structure, and how is it different from a static one?
