@@ -449,9 +449,60 @@ Given two positive numbers x and y, check if y is a power of x or not.
 
 
 
-114. ### 
+114. ### Square root of an integer
+
+Given a positive integer n, find its square root. If n is not a perfect square, then return floor of √n.
+
 ```javascript
-   
+    console.log("Nearest floor square root : ", floorSquareRoot(25))
+    console.log("Nearest floor square root : ", floorSquareRoot(29))
+    console.log("Nearest floor square root : ", floorSquareRoot(125))
+    console.log("Nearest floor square root : ", floorSquareRoot(135))
+
+    function floorSquareRoot(num){
+        let result = 0;
+        for(let i=1; i<num+1; i++){
+            if(i*i == num){
+                result = i;
+                return result;
+            }
+            if(i*i > num){
+                result= i-1;
+                return result
+            }
+        }
+    }
+```
+
+```javascript
+    console.log("Nearest floor square root : ", floorSquareRoot(29))
+
+    function floorSquareRoot(num){
+        return Math.floor(Math.sqrt(num));
+    }
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+115. ### Find GCD or HCF of Two Numbers
+```javascript
+    const commonFactors  = highestCommonFactor(36,72);
+    console.log(commonFactors);
+    console.log("Highest common factor : ", commonFactors.pop())
+
+    function highestCommonFactor(x,y){
+        let lesserNumber = x>y? y : x;
+        let commonFactors = [];
+        for(let i=2; i<=lesserNumber; i++){
+            if(x%i==0 && y%i==0){
+                commonFactors.push(i)
+            }
+        }
+        return commonFactors
+    }
 ```
 
 
@@ -462,7 +513,53 @@ Given two positive numbers x and y, check if y is a power of x or not.
 
 
 
-115. ### 
+
+
+108. ###  Find LCM of two numbers
+
+LCM of two numbers is the smallest number which can be divided by both numbers. 
+
+**To be corrected**
+```javascript
+   const lcm  = leastCommonMultiple(45,4500);
+    console.log("Least common multiple : ", lcm)
+
+    function leastCommonMultiple(x,y){
+        let greaterNumber = x>y? x : y;
+        let commonFactors = [];
+        let uncommonFactors = [];
+        let allFactors = [];
+        for(let i=1; i<=greaterNumber; i++){
+            if((x%i)==0 && (y%i)==0){
+                x=x/i
+                y=y/i
+                commonFactors.push(i)
+            }else if((x%i)==0 || (y%i)==0){
+                x = x%i == 0 ? x/i : x
+                y = y%i == 0 ? y/i : y
+                uncommonFactors.push(i)
+            }
+        }
+        console.log(commonFactors)
+        console.log(uncommonFactors)
+        // LCM = commonFactors * uncommonFactors
+        allFactors = commonFactors.concat(uncommonFactors);
+        console.log("All factors : ", allFactors)
+    
+        let lcm = 1;
+        for(let i=0; i<allFactors.length; i++){
+            lcm*= allFactors[i];
+        }
+        return lcm;
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### 
 ```javascript
    
 ```
@@ -472,10 +569,35 @@ Given two positive numbers x and y, check if y is a power of x or not.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+108. ### 
+```javascript
+   
+```
 
 
 
 
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### 
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+108. ### 
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
 
 108. ### 
 ```javascript
