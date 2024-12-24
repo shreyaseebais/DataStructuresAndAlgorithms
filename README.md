@@ -521,7 +521,7 @@ LCM of two numbers is the smallest number which can be divided by both numbers.
 
 **To be corrected**
 ```javascript
-   const lcm  = leastCommonMultiple(45,4500);
+    const lcm  = leastCommonMultiple(45,4500);
     console.log("Least common multiple : ", lcm)
 
     function leastCommonMultiple(x,y){
@@ -529,19 +529,24 @@ LCM of two numbers is the smallest number which can be divided by both numbers.
         let commonFactors = [];
         let uncommonFactors = [];
         let allFactors = [];
-        for(let i=1; i<=greaterNumber; i++){
-            if((x%i)==0 && (y%i)==0){
-                x=x/i
-                y=y/i
-                commonFactors.push(i)
-            }else if((x%i)==0 || (y%i)==0){
-                x = x%i == 0 ? x/i : x
-                y = y%i == 0 ? y/i : y
-                uncommonFactors.push(i)
+        let divisor = 2;
+        
+        do{
+            if((x%divisor)==0 && (y%divisor)==0){
+                commonFactors.push(divisor)
+                x /= divisor;
+                y /= divisor;
+            }else if((x%divisor)==0){
+                uncommonFactors.push(divisor)
+                x /= divisor;
+            }else if((y%divisor)==0){
+                uncommonFactors.push(divisor)
+                y /= divisor;
+            }else{
+                divisor++;
             }
-        }
-        console.log(commonFactors)
-        console.log(uncommonFactors)
+        }while(x>1 || y>1);
+    
         // LCM = commonFactors * uncommonFactors
         allFactors = commonFactors.concat(uncommonFactors);
         console.log("All factors : ", allFactors)
