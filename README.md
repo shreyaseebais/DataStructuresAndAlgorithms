@@ -684,7 +684,7 @@ Write a function to check if a given number is perfect or not.
 Add two fraction a/b and c/d and print answer in simplest form.
 
 
-* Algorithm to add two fractions
+**Algorithm to add two fractions** 
  
 Find a common denominator by finding the LCM (Least Common Multiple) of the two denominators.
 Change the fractions to have the same denominator and add both terms.
