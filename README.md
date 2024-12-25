@@ -606,7 +606,34 @@ All single digit numbers are considered as Jumping Numbers. For example 7, 8987 
 Given a positive number x, print all Jumping Numbers smaller than or equal to x. The numbers can be printed in any order.
 
 ```javascript
-   
+    console.log('Jumping numbers : ', findJumpingNumbers(20))
+
+    function findJumpingNumbers(num){
+        let jumpingNumList = [];
+        for(let i=0; i<= num; i++){
+            let currentNumTemp = i;
+            let currentNum= i;
+            if(i<=9){
+                jumpingNumList.push(i)
+            }else{
+                let previousRemainder = currentNum%10 ;
+                let isCurrentNumJumping = false;
+                do{
+                    currentNumTemp -= previousRemainder;
+                    currentNumTemp= currentNumTemp/10;
+                    currentRemainder= currentNumTemp%10;
+                    if((previousRemainder - currentRemainder == 1) || previousRemainder - currentRemainder == -1){
+                        isCurrentNumJumping = true
+                        jumpingNumList.push(currentNum)
+                    }else {
+                        isCurrentNumJumping = false;
+                    };
+                    previousRemainder = currentRemainder;
+                }while(currentNumTemp>10);
+            }
+        }
+        return jumpingNumList;
+    }
 ```
 
 
@@ -614,9 +641,37 @@ Given a positive number x, print all Jumping Numbers smaller than or equal to x.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+118. ### Perfect Number
+
+A number is a perfect number if is equal to sum of its proper divisors, 
+that is, sum of its positive divisors excluding the number itself. 
+Write a function to check if a given number is perfect or not. 
+
 ```javascript
-   
+   // Few perfect numbers are 6, 28, 496, 8128, 33550336, 8589869056, and 137438691328
+    let input = 497;
+    console.log(isPerfectNumber(input));
+
+    function isPerfectNumber(num){
+        let factors = [];
+        let divisor = 2;
+        do{
+            if((num%divisor)==0){
+                factors.push(divisor)
+                num /= divisor;
+            }else{
+                divisor++;
+            }
+        }while(num>1);
+    
+        // Perfect number is (number == multiply all factors of the number)
+        let multiplicationOfFactors = 1;
+        console.log(factors)
+        for(let i=0; i<factors.length; i++){
+            multiplicationOfFactors*= factors[i];
+        }
+        return input == multiplicationOfFactors;
+    }
 ```
 
 
@@ -624,7 +679,18 @@ Given a positive number x, print all Jumping Numbers smaller than or equal to x.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+108. ### Add two fractions
+
+Add two fraction a/b and c/d and print answer in simplest form.
+
+
+Algorithm to add two fractions : 
+ 
+Find a common denominator by finding the LCM (Least Common Multiple) of the two denominators.
+Change the fractions to have the same denominator and add both terms.
+Reduce the final fraction obtained into its simpler form by dividing both numerator and denominator by their largest common factor.
+
+
 ```javascript
    
 ```
