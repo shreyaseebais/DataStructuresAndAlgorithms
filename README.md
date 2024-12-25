@@ -515,21 +515,19 @@ Given a positive integer n, find its square root. If n is not a perfect square, 
 
 
 
-108. ###  Find LCM of two numbers
+116. ###  Find LCM of two numbers
 
 LCM of two numbers is the smallest number which can be divided by both numbers. 
 
-**To be corrected**
 ```javascript
     const lcm  = leastCommonMultiple(45,4500);
     console.log("Least common multiple : ", lcm)
 
     function leastCommonMultiple(x,y){
-        let greaterNumber = x>y? x : y;
         let commonFactors = [];
         let uncommonFactors = [];
         let allFactors = [];
-        let divisor = 2;
+        let divisor = 2;            //start with 2
         
         do{
             if((x%divisor)==0 && (y%divisor)==0){
@@ -564,7 +562,12 @@ LCM of two numbers is the smallest number which can be divided by both numbers.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+117. ### Jumping Numbers smaller than or equal to a given value
+
+A number is called as a Jumping Number if all adjacent digits in it differ by 1. The difference between ‘9’ and ‘0’ is not considered as 1. 
+All single digit numbers are considered as Jumping Numbers. For example 7, 8987 and 4343456 are Jumping numbers but 796 and 89098 are not. 
+Given a positive number x, print all Jumping Numbers smaller than or equal to x. The numbers can be printed in any order.
+
 ```javascript
    
 ```
