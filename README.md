@@ -488,6 +488,42 @@ Given a positive integer n, find its square root. If n is not a perfect square, 
 
 
 115. ### Find GCD or HCF of Two Numbers
+
+```javascript
+const hcf =  highestCommonFactor(36,72);
+console.log(hcf);
+
+function highestCommonFactor(x,y){
+    let commonFactors = [];
+    let factorsOfX = [];
+    let factorsOfY = [];
+    let divisor = 2;
+    
+    do{
+        if((x%divisor)==0 && (y%divisor)==0){
+            commonFactors.push(divisor)
+            x /= divisor;
+            y /= divisor;
+        }else if((x%divisor)==0){
+            factorsOfX.push(divisor)
+            x /= divisor;
+        }else if((y%divisor)==0){
+            factorsOfY.push(divisor)
+            y /= divisor;
+        }else{
+            divisor++;
+        }
+    }while(x>1 || y>1);
+   
+    // HCF = multiply all commonFactors 
+    let hcf = 1;
+    for(let i=0; i<commonFactors.length; i++){
+        hcf*= commonFactors[i];
+    }
+    return hcf;
+}
+```
+
 ```javascript
     const commonFactors  = highestCommonFactor(36,72);
     console.log(commonFactors);
@@ -504,6 +540,7 @@ Given a positive integer n, find its square root. If n is not a perfect square, 
         return commonFactors
     }
 ```
+
 
 
 
