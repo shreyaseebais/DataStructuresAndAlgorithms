@@ -40,7 +40,7 @@
 | 125 | [](#)                               |
 | 126 | [](#)                               |
 | 127 | [](#)                               |
-| 128 | [](#)                               |
+| 128 | [](#)                               
 | 129 | [](#)                                                                                               |
 | 130 | [](#)                                                                                              |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
@@ -702,7 +702,68 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
 
 
 ```javascript
-   
+    num1 = 2;
+    den1 = 3;
+    num2 = 4;
+    den2 = 5;
+    console.log(addFractions(num1, den1, num2, den2));
+
+    function addFractions(num1, den1, num2, den2){
+        const denominator = findLcm(den1, den2)
+        num1 = num1*(denominator/den1);
+        num2 = num2*(denominator/den2);
+        let numerators = num1 + num2;
+        let denominators = denominator*2;
+        commonFactor = highestCommonFactor(numerators, denominators)
+        const newNumerator = numerators/commonFactor;
+        const newDenominator = denominators/commonFactor;
+        return (newNumerator + " / " + newDenominator);
+    }
+
+    function findLcm(x,y){
+        let commonFactors = [];
+        let uncommonFactors = [];
+        let allFactors = [];
+        let divisor = 2;            
+        
+        do{
+            if((x%divisor)==0 && (y%divisor)==0){
+                commonFactors.push(divisor)
+                x /= divisor;
+                y /= divisor;
+            }else if((x%divisor)==0){
+                uncommonFactors.push(divisor)
+                x /= divisor;
+            }else if((y%divisor)==0){
+                uncommonFactors.push(divisor)
+                y /= divisor;
+            }else{
+                divisor++;
+            }
+        }while(x>1 || y>1);
+
+        // LCM = commonFactors * uncommonFactors
+        allFactors = commonFactors.concat(uncommonFactors);
+        console.log("All factors : ", allFactors)
+
+        let lcm = 1;
+        for(let i=0; i<allFactors.length; i++){
+            lcm*= allFactors[i];
+        }
+        return lcm;
+    }
+
+    function highestCommonFactor(x,y){
+        let lesserNumber = x>y? y : x;
+        let commonFactors = [];
+        for(let i=2; i<=lesserNumber; i++){
+            if(x%i==0 && y%i==0){
+                commonFactors.push(i)
+            }
+        }
+        return commonFactors.pop()
+    }
+
 ```
 
 
