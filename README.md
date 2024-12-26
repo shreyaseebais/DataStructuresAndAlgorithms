@@ -709,7 +709,7 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
     console.log(addFractions(num1, den1, num2, den2));
 
     function addFractions(num1, den1, num2, den2){
-        const denominator = findLcm(den1, den2)
+        const denominator = leastCommonMultiple(den1, den2)
         num1 = num1*(denominator/den1);
         num2 = num2*(denominator/den2);
         let numerators = num1 + num2;
@@ -720,7 +720,7 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
         return (newNumerator + " / " + newDenominator);
     }
 
-    function findLcm(x,y){
+    function leastCommonMultiple(x,y){
         let commonFactors = [];
         let uncommonFactors = [];
         let allFactors = [];
@@ -771,7 +771,10 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+109. ### Fraction to Recurring Decimal
+
+Given two integers a and b(b != 0), the task is to return the fraction a/b in string format. If the fractional part is repeating, enclose the repeating part in parentheses.
+
 ```javascript
    
 ```
@@ -781,7 +784,163 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### 
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+111. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+112. ### Write a program to print Sum of even and odd elements in an array 
+Given an array, write a program to find the sum of values of even and odd index positions separately.
+```javascript
+    let inputArr = [1, 2, 3, 4, 5, 6]; 
+    let sumOfEvenPositions=0;
+    let sumOfOddPositions=0;
+    separateEvenOddSums(inputArr);
+
+    function separateEvenOddSums(arr){
+        for(let i=0; i<arr.length; i++){
+            if(i%2==0){
+                sumOfOddPositions+= arr[i]
+            }else{
+                sumOfEvenPositions+= arr[i]
+            }
+        }
+        console.log('sumOfEvenPositions :', sumOfEvenPositions)
+        console.log('sumOfOddPositions :', sumOfOddPositions)
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+113. ### Write a program for Decimal to Binary Conversion
+
+Given a decimal number as input, we need to write a program to convert the given decimal number into an equivalent binary  number.
+
+Brute force Approach
+For Example: 
+If the decimal number is 10. 
+Step 1: Remainder when 10 is divided by 2 is zero. Therefore, arr[0] = 0. 
+Step 2: Divide 10 by 2. New number is 10/2 = 5. 
+Step 3: Remainder when 5 is divided by 2 is 1. Therefore, arr[1] = 1. 
+Step 4: Divide 5 by 2. New number is 5/2 = 2. 
+Step 5: Remainder when 2 is divided by 2 is zero. Therefore, arr[2] = 0. 
+Step 6: Divide 2 by 2. New number is 2/2 = 1. 
+Step 7: Remainder when 1 is divided by 2 is 1. Therefore, arr[3] = 1. 
+Step 8: Divide 1 by 2. New number is 1/2 = 0. 
+Step 9: Since number becomes = 0. Print the array in reverse order. Therefore the equivalent binary number is 1010.
+
+---
+<div>
+<p align="center">
+    <img src="./images/decimalToBinary.png" alt="Javascript Engine" width="70%">
+</p>
+</div>
+---
+
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+114. ### Write a program to calculate distance between two points
+You are given two coordinates (x1, y1) and (x2, y2) of a two-dimensional graph. Find the distance between them.
+
+Eg. 
+Input : x1, y1 = (3, 4)
+        x2, y2 = (7, 7)
+Output : 5
+
+Input : x1, y1 = (3, 4) 
+        x2, y2 = (4, 3)
+Output : 1.41421
+
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+```javascript
+   
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+110. ### Find Recurring Sequence in a Fraction 
+Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 ```javascript
    
 ```
