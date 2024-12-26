@@ -896,8 +896,27 @@ Distance = sqrt{(x2-x1)^{2} + (y2-y1)^{2}}
 **[⬆ Back to Top](#table-of-contents)**
 
 
-110. ### Find Recurring Sequence in a Fraction 
-Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+110. ### Program for Armstrong Numbers
+Given a number x, determine whether the given number is Armstrong’s number or not.
+
+A positive integer of n digits is called an Armstrong number of order n (order is the number of digits) if
+
+abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + .... 
+
+Eg. 
+
+Input:153
+Output: Yes
+153 is an Armstrong number.
+1*1*1 + 5*5*5 + 3*3*3 = 153
+
+
+Input: 120
+Output: No
+120 is not a Armstrong number.
+1*1*1 + 2*2*2 + 0*0*0 = 9
+
+
 ```javascript
    
 ```
