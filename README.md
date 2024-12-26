@@ -21,18 +21,28 @@
 | 106 | [ Dice Problem ](#dice-problem)                                                                   |
 | 107 | [ Simple Interest ](#simple-interest)                                                             |
 | 108 | [ Area of a Circle ](#area-of-a-circle)                                                           |
-| 109 | [ Sum of the digits of a given number ](#sum-of-the-digits-of-a-given-number)                     |
-| 110 | [ Prime Number ](#check-for-prime-number)                                                         |
-| 111 | [ Exactly 3 divisors](#find-numbers-from-1-to-n-with-exactly-3-divisors)                          |
-| 112 | [ Check if a number is a power of another number](#check-if-a-number-is-a-power-of-another-number)        |
-| 113 | [](#)                                                                                             |
-| 114 | [](#)                                                                                             |
-| 115 | [](#)                                                                                             |
-| 116 | [](#)                                                                                             |
-| 117 | [](#)                                                                                             |
-| 118 | [](#)                                                                                             |
-| 119 | [](#)                                                                                             |
-| 120 | [](#)                                                                                            |
+| 109 | [ Sum of the digits of a given number ](#sum-of-the-digits-of-a-given-number)                                       |
+| 110 | [ Prime Number ](#check-for-prime-number)                                                                           |
+| 111 | [ Exactly 3 divisors](#find-numbers-from-1-to-n-with-exactly-3-divisors)                                            |
+| 112 | [ Check if a number is a power of another number](#check-if-a-number-is-a-power-of-another-number)                  |
+| 113 | [ Factorial of a Number ](#factorial-of-a-number)                                                                   |
+| 114 | [ Square root of an integer ](#square-root-of-an-integer)                                                           |
+| 115 | [ Find GCD or HCF of Two Numbers ](#find-gcd-or-hcf-of-two-numbers)                                                 |
+| 116 | [ Find LCM of two numbers ](#find-lcm-of-two-numbers)                                                               |
+| 117 | [ Jumping Numbers](#jumping-numbers-smaller-than-or-equal-to-a-given-value)                                         |
+| 118 | [ Perfect Number ](#perfect-number)                                                                                 |
+| 119 | [ Add two fractions ](#add-two-fractions)                                                                           |
+| 120 | [](#)                               |
+| 121 | [](#)                               |
+| 122 | [](#)                               |
+| 123 | [](#)                               |
+| 124 | [](#)                               |
+| 125 | [](#)                               |
+| 126 | [](#)                               |
+| 127 | [](#)                               |
+| 128 | [](#)                               |
+| 129 | [](#)                                                                                               |
+| 130 | [](#)                                                                                              |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
 | 203 | [ Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
@@ -643,12 +653,12 @@ Given a positive number x, print all Jumping Numbers smaller than or equal to x.
 
 118. ### Perfect Number
 
-A number is a perfect number if is equal to sum of its proper divisors, 
-that is, sum of its positive divisors excluding the number itself. 
-Write a function to check if a given number is perfect or not. 
+A number is a perfect number if is equal to sum of its proper divisors,
+that is, sum of its positive divisors excluding the number itself.
+Write a function to check if a given number is perfect or not.
+Eg. 6, 28, 496, 8128, 33550336, 8589869056, and 137438691328 are few perfect numbers.
 
 ```javascript
-   // Few perfect numbers are 6, 28, 496, 8128, 33550336, 8589869056, and 137438691328
     let input = 497;
     console.log(isPerfectNumber(input));
 
