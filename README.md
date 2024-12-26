@@ -35,12 +35,12 @@
 | 120 | [ Fraction to Recurring Decimal ](#fraction-to-recurring-decimal)                               |
 | 121 | [ Find Recurring Sequence in a Fraction ](#find-recurring-sequence-in-a-fraction)                               |
 | 122 | [ print Sum of even and odd elements in an array ](#write-a-program-to-print-sum-of-even-and-odd-elements-in-an-array)                               |
-| 123 | [](#)                               |
-| 124 | [](#)                               |
-| 125 | [](#)                               |
-| 126 | [](#)                               |
-| 127 | [](#)                               |
-| 128 | [](#)                               
+| 123 | [ Decimal to Binary Conversion ](#write-a-program-for-decimal-to-binary-conversion)                               |
+| 124 | [ Calculate distance between two points ](#write-a-program-to-calculate-distance-between-two-points)                               |
+| 125 | [ Armstrong Numbers](#program-for-armstrong-numbers)                               |
+| 126 | [ Maximum and minimum of an array ](#maximum-and-minimum-of-an-array-using-minimum-number-of-comparisons)                               |
+| 127 | [ Array Reverse ](#array-reverse)                                                      |
+| 128 | [ Cyclically rotate an array by one ](#program-to-cyclically-rotate-an-array-by-one)     |              
 | 129 | [](#)                                                                                               |
 | 130 | [](#)                                                                                              |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
