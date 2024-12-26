@@ -896,7 +896,7 @@ Distance = sqrt{(x2-x1)^{2} + (y2-y1)^{2}}
 **[⬆ Back to Top](#table-of-contents)**
 
 
-110. ### Program for Armstrong Numbers
+115. ### Program for Armstrong Numbers
 Given a number x, determine whether the given number is Armstrong’s number or not.
 
 A positive integer of n digits is called an Armstrong number of order n (order is the number of digits) if
@@ -927,8 +927,69 @@ Output: No
 **[⬆ Back to Top](#table-of-contents)**
 
 
-110. ### Find Recurring Sequence in a Fraction 
+116. ### Maximum and minimum of an array using minimum number of comparisons
+Given an array of size N. The task is to find the maximum and the minimum element of the array using the minimum number of comparisons.
+
+Examples:
+
+Input: arr[] = {3, 5, 4, 1, 9}
+Output: Minimum element is: 1
+              Maximum element is: 9
+
+
+Input: arr[] = {22, 14, 8, 17, 35, 3}
+Output:  Minimum element is: 3
+              Maximum element is: 35
+
+```javascript
+   let inputArr = [1, 12, 7, 9, 10, 6]; 
+
+    console.log("Minumum : ", findMini(inputArr));
+    console.log("Maximum : ", findMaxi(inputArr));
+
+    function findMini(arr){
+        let minimum = arr[0];
+        arr.forEach((el)=>
+            {
+                if(el<minimum)  minimum=el
+            }
+        );
+        return minimum
+    }
+
+    function findMaxi(arr){
+        let maximum = arr[0];
+        arr.forEach((el)=>
+            {
+                if(el>maximum)  maximum=el
+            }
+        );
+        return maximum 
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+117. ### Array Reverse 
 Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
+
+Given an array arr[], the task is to reverse the array. Reversing an array means rearranging the elements such that the first element becomes the last, the second element becomes second last and so on.
+
+Examples:
+
+Input: arr[] = {1, 4, 3, 2, 6, 5}  
+Output: {5, 6, 2, 3, 4, 1}
+Explanation: The first element 1 moves to last position, the second element 4 moves to second-last and so on.
+
+
+Input: arr[] = {4, 5, 1, 2} 
+Output: {2, 1, 5, 4}
+Explanation: The first element 4 moves to last position, the second element 5 moves to second last and so on.
+
 ```javascript
    
 ```
@@ -939,20 +1000,19 @@ Given a fraction, find a recurring sequence of digits if it exists, otherwise, p
 **[⬆ Back to Top](#table-of-contents)**
 
 
-110. ### Find Recurring Sequence in a Fraction 
-Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
-```javascript
-   
-```
+118. ### Program to cyclically rotate an array by one
+Given an array, the task is to cyclically rotate the array clockwise by one time. 
+
+Examples:  
 
 
+Input: arr[] = {1, 2, 3, 4, 5} 
+Output: arr[] = {5, 1, 2, 3, 4}
 
 
-**[⬆ Back to Top](#table-of-contents)**
+Input: arr[] = {2, 3, 4, 5, 1}
+Output: {1, 2, 3, 4, 5}
 
-
-110. ### Find Recurring Sequence in a Fraction 
-Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 ```javascript
    
 ```
