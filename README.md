@@ -38,15 +38,15 @@
 | 123 | [ Decimal to Binary Conversion ](#write-a-program-for-decimal-to-binary-conversion)                               |
 | 124 | [ Calculate distance between two points ](#write-a-program-to-calculate-distance-between-two-points)                               |
 | 125 | [ Armstrong Numbers](#program-for-armstrong-numbers)                               |
-| 126 | [ Maximum and minimum of an array ](#maximum-and-minimum-of-an-array-using-minimum-number-of-comparisons)                               |
+| 126 | [ Maximum and minimum of an array ](#maximum-and-minimum-of-an-array-using-minimum-number-of-comparisons)|
 | 127 | [ Array Reverse ](#array-reverse)                                                      |
 | 128 | [ Cyclically rotate an array by one ](#program-to-cyclically-rotate-an-array-by-one)     |              
 | 129 | [ Array Sorting ](#array-sorting)                                                                    |
-| 130 | [ Duplicate elements in an array](#find-duplicate-elements-in-an-array)                                    |
-| 130 | [Find distinct values from array](#find-distinct-values-from-array)                                     |
-| 130 | [](#)                                                                                              |
-| 130 | [](#)                                                                                              |
-| 130 | [](#)                                                                                              |
+| 130 | [ Duplicate elements in an array ](#find-duplicate-elements-in-an-array)                                    |
+| 131 | [ Find distinct values from array ](#find-distinct-values-from-array)                                     |
+| 132 | [](#)                                                                                              |
+| 133 | [](#)                                                                                              |
+| 134 | [](#)                                                                                              |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
 | 203 | [ Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
@@ -1148,10 +1148,34 @@ Output: [ 10, 100, 2, 11 ]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-121. ### XYZ 
+121. ### Count number of occurrences (or frequency) in a sorted array
+
+Given a sorted array arr[] and an integer target, the task is to find the number of occurrences of target in given array.
+
+Examples:
+
+Input: arr[] = [1, 1, 2, 2, 2, 2, 3], target = 2
+Output: 4
+Explanation: 2 occurs 4 times in the given array.
+
+
+Input: arr[] = [1, 1, 2, 2, 2, 2, 3], target = 4
+Output: 0
+Explanation: 4 is not present in the given array.
 
 ```javascript
-   console.log(xyz)
+    const arr = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8];
+    const target = 2;
+    console.log(countFrequency(arr, target));
+
+    function countFrequency(arr, target) {
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === target)
+                count++;
+        }
+        return count;
+    }
 ```
 
 
