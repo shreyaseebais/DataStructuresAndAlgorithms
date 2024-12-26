@@ -32,9 +32,9 @@
 | 117 | [ Jumping Numbers](#jumping-numbers-smaller-than-or-equal-to-a-given-value)                                         |
 | 118 | [ Perfect Number ](#perfect-number)                                                                                 |
 | 119 | [ Add two fractions ](#add-two-fractions)                                                                           |
-| 120 | [](#)                               |
-| 121 | [](#)                               |
-| 122 | [](#)                               |
+| 120 | [ Fraction to Recurring Decimal ](#fraction-to-recurring-decimal)                               |
+| 121 | [ Find Recurring Sequence in a Fraction ](#find-recurring-sequence-in-a-fraction)                               |
+| 122 | [ print Sum of even and odd elements in an array ](#write-a-program-to-print-sum-of-even-and-odd-elements-in-an-array)                               |
 | 123 | [](#)                               |
 | 124 | [](#)                               |
 | 125 | [](#)                               |
@@ -792,22 +792,10 @@ Given a fraction, find a recurring sequence of digits if it exists, otherwise, p
 
 
 
-
-**[⬆ Back to Top](#table-of-contents)**
-
-111. ### Find Recurring Sequence in a Fraction 
-Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
-```javascript
-   
-```
-
-
-
-
 **[⬆ Back to Top](#table-of-contents)**
 
 
-112. ### Write a program to print Sum of even and odd elements in an array 
+111. ### Write a program to print Sum of even and odd elements in an array 
 Given an array, write a program to find the sum of values of even and odd index positions separately.
 ```javascript
     let inputArr = [1, 2, 3, 4, 5, 6]; 
@@ -834,7 +822,7 @@ Given an array, write a program to find the sum of values of even and odd index 
 **[⬆ Back to Top](#table-of-contents)**
 
 
-113. ### Write a program for Decimal to Binary Conversion
+112. ### Write a program for Decimal to Binary Conversion
 
 Given a decimal number as input, we need to write a program to convert the given decimal number into an equivalent binary  number.
 
@@ -866,7 +854,7 @@ Step 9: Since number becomes = 0. Print the array in reverse order. Therefore th
 **[⬆ Back to Top](#table-of-contents)**
 
 
-114. ### Write a program to calculate distance between two points
+113. ### Write a program to calculate distance between two points
 You are given two coordinates (x1, y1) and (x2, y2) of a two-dimensional graph. Find the distance between them.
 
 Eg. 
@@ -896,7 +884,7 @@ Distance = sqrt{(x2-x1)^{2} + (y2-y1)^{2}}
 **[⬆ Back to Top](#table-of-contents)**
 
 
-115. ### Program for Armstrong Numbers
+114. ### Program for Armstrong Numbers
 Given a number x, determine whether the given number is Armstrong’s number or not.
 
 A positive integer of n digits is called an Armstrong number of order n (order is the number of digits) if
@@ -927,7 +915,7 @@ Output: No
 **[⬆ Back to Top](#table-of-contents)**
 
 
-116. ### Maximum and minimum of an array using minimum number of comparisons
+115. ### Maximum and minimum of an array using minimum number of comparisons
 Given an array of size N. The task is to find the maximum and the minimum element of the array using the minimum number of comparisons.
 
 Examples:
@@ -974,7 +962,7 @@ Output:  Minimum element is: 3
 **[⬆ Back to Top](#table-of-contents)**
 
 
-117. ### Array Reverse 
+116. ### Array Reverse 
 Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 
 Given an array arr[], the task is to reverse the array. Reversing an array means rearranging the elements such that the first element becomes the last, the second element becomes second last and so on.
@@ -991,16 +979,26 @@ Output: {2, 1, 5, 4}
 Explanation: The first element 4 moves to last position, the second element 5 moves to second last and so on.
 
 ```javascript
-   
+    let inputArr = [1, 4, 3, 2, 6, 5];
+    console.log(reverseArray(inputArr));
+
+    function reverseArray(arr){
+        console.log(arr)
+        let reversedArray=[];
+        for(let i=arr.length-1; i>=0; i--){
+            reversedArray.push(arr[i])
+        }
+        return reversedArray;
+    }
 ```
+
 
 
 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
-118. ### Program to cyclically rotate an array by one
+117. ### Program to cyclically rotate an array by one
 Given an array, the task is to cyclically rotate the array clockwise by one time. 
 
 Examples:  
@@ -1013,8 +1011,22 @@ Output: arr[] = {5, 1, 2, 3, 4}
 Input: arr[] = {2, 3, 4, 5, 1}
 Output: {1, 2, 3, 4, 5}
 
+Hint: Assign every element with its previous element and first element with the last element .
 ```javascript
-   
+    let inputArr = [1, 4, 3, 2, 6, 5];
+    let numOfRotations = 1;
+    console.log(rotateOnce(inputArr, numOfRotations));
+
+    function rotateOnce(arr, rotations){
+        console.log(arr)
+        let rotatedArray=[];
+        let numOfRotations = rotations;
+        rotatedArray.push(arr[arr.length- numOfRotations])
+        for(let i=0; i < (arr.length-numOfRotations); i++){
+            rotatedArray.push(arr[i])
+        }
+        return rotatedArray;
+    }
 ```
 
 
@@ -1022,11 +1034,76 @@ Output: {1, 2, 3, 4, 5}
 
 **[⬆ Back to Top](#table-of-contents)**
 
+118. ### XYZ 
 
-110. ### Find Recurring Sequence in a Fraction 
-Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 ```javascript
-   
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+110. ### XYZ 
+
+```javascript
+   console.log(xyz)
 ```
 
 
