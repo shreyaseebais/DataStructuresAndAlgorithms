@@ -1034,10 +1034,43 @@ Hint: Assign every element with its previous element and first element with the 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-118. ### XYZ 
+118. ### Array Sorting 
+Sorting an array means arranging the elements of the array in a certain order. Generally sorting in an array is done to arrange the elements in increasing or decreasing order.
+
+Problem statement: Given an array of integers arr, the task is to sort the array in ascending order and return it, without using any built-in functions.
+
+Example:
+
+Input: arr = [5, 2, 4, 3, 1]
+Output: [1, 2, 3, 4, 5]
+
+
+Input: arr = [1, 2, 2, 1, 3, 5, 4]
+Output: [1, 1, 2, 2, 3, 4, 5]
+
 
 ```javascript
-   console.log(xyz)
+    function sort(arr){
+        console.log(arr);
+        let sortedArray=[];
+        for(let i=0; i<arr.length;i++){
+            let swapped = false;
+            for(let j=0;j<arr.length - i;j++){
+                if(arr[j] > arr[j + 1]){
+                    let temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true; 
+                }
+            }
+            if (!swapped)
+                break;
+        }            
+        return arr ;
+    }
+
+    console.log("Sorted array : ", sort([64,34, 91, 78,  22, 11, 90, 89]));
+
 ```
 
 
