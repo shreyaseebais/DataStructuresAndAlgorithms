@@ -1078,7 +1078,73 @@ Output: [1, 1, 2, 2, 3, 4, 5]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-110. ### XYZ 
+119. ### Find duplicate elements in an array
+Given an array of n integers. The task is to find all elements that have more than one occurrences. The output should only be one occurrence of a number irrespective of the number of occurrences in the input array.
+
+Examples: 
+
+Input: {2, 10, 10, 100, 2, 10, 11, 2, 11, 2}
+Output: {2, 10, 11}
+
+
+Input: {5, 40, 1, 40, 100000, 1, 5, 1}
+Output: {5, 40, 1}
+
+```javascript
+    let inputArray = [2, 10, 10, 100, 2, 10, 11, 2, 11, 2]
+    console.log(findDuplicates(inputArray));
+
+    function findDuplicates(arr){
+        let dupes = [];
+        for(let i=0; i<arr.length; i++){
+            for(let j=0; j<arr.length-i; j++){
+                if(!dupes.includes(arr[i])){
+                    if(arr[i]==arr[j]){
+                        dupes.push(arr[i])
+                        break;
+                    }
+                }
+            }
+        }
+        return dupes;
+    }
+
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+120. ### Find distinct values from array.
+
+Example: 
+
+Input: {2, 10, 10, 100, 2, 10, 11, 2, 11, 2}
+Output: [ 10, 100, 2, 11 ]
+
+```javascript
+    let inputArray = [2, 10, 10, 100, 2, 10, 11, 2, 11, 2]
+    console.log(findDistinct(inputArray));
+
+    function findDistinct(arr){
+        let dupes = [];
+        let temp = arr[0]
+        for(let i=1; i<arr.length;i++){
+            if(!dupes.includes(arr[i])){
+                dupes.push(arr[i])
+            }
+        }
+        return dupes;
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+121. ### XYZ 
 
 ```javascript
    console.log(xyz)
@@ -1089,7 +1155,7 @@ Output: [1, 1, 2, 2, 3, 4, 5]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-110. ### XYZ 
+122. ### XYZ 
 
 ```javascript
    console.log(xyz)
@@ -1100,7 +1166,7 @@ Output: [1, 1, 2, 2, 3, 4, 5]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-110. ### XYZ 
+123. ### XYZ 
 
 ```javascript
    console.log(xyz)
@@ -1111,29 +1177,7 @@ Output: [1, 1, 2, 2, 3, 4, 5]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-110. ### XYZ 
-
-```javascript
-   console.log(xyz)
-```
-
-
-
-
-**[⬆ Back to Top](#table-of-contents)**
-
-110. ### XYZ 
-
-```javascript
-   console.log(xyz)
-```
-
-
-
-
-**[⬆ Back to Top](#table-of-contents)**
-
-110. ### XYZ 
+124. ### XYZ 
 
 ```javascript
    console.log(xyz)
