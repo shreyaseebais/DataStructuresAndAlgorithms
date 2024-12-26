@@ -41,7 +41,11 @@
 | 126 | [ Maximum and minimum of an array ](#maximum-and-minimum-of-an-array-using-minimum-number-of-comparisons)                               |
 | 127 | [ Array Reverse ](#array-reverse)                                                      |
 | 128 | [ Cyclically rotate an array by one ](#program-to-cyclically-rotate-an-array-by-one)     |              
-| 129 | [](#)                                                                                               |
+| 129 | [ Array Sorting ](#array-sorting)                                                                    |
+| 130 | [ Duplicate elements in an array](#find-duplicate-elements-in-an-array)                                    |
+| 130 | [Find distinct values from array](#find-distinct-values-from-array)                                     |
+| 130 | [](#)                                                                                              |
+| 130 | [](#)                                                                                              |
 | 130 | [](#)                                                                                              |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
