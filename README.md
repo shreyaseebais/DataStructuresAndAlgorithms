@@ -854,14 +854,11 @@ Step 9: Since number becomes = 0. Print the array in reverse order. Therefore th
 ---
 <div>
 <p align="center">
-    <img src="./images/decimalToBinary.png" alt="Javascript Engine" width="70%">
+    <img src="./images/decimalTobinary.png" alt="DecimalToBinary" width="70%">
 </p>
 </div>
 ---
 
-```javascript
-   
-```
 
 
 
