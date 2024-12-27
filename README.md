@@ -44,9 +44,15 @@
 | 129 | [ Array Sorting ](#array-sorting)                                                                    |
 | 130 | [ Duplicate elements in an array ](#find-duplicate-elements-in-an-array)                                    |
 | 131 | [ Find distinct values from array ](#find-distinct-values-from-array)                                     |
-| 132 | [](#)                                                                                              |
-| 133 | [](#)                                                                                              |
-| 134 | [](#)                                                                                              |
+| 132 | [ Count number of occurrences (or frequency) in a sorted array ](#count-number-of-occurrences-or-frequency-in-a-sorted-array) |
+| 133 | [ Dutch National Flag Problem ](#dutch-national-flag-problem)           |
+| 134 | [ XYZ ](#xyz)          |
+| 135 | [ XYZ ](#xyz)          |
+| 136 | [ XYZ ](#xyz)          |
+| 137 | [ XYZ ](#xyz)          |
+| 138 | [ XYZ ](#xyz)          |
+| 139 | [ XYZ ](#xyz)          |
+| 140 | [ XYZ ](#xyz)          |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
 | 203 | [ Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
