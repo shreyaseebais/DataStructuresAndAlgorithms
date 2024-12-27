@@ -46,13 +46,21 @@
 | 131 | [ Find distinct values from array ](#find-distinct-values-from-array)                                     |
 | 132 | [ Count number of occurrences (or frequency) in a sorted array ](#count-number-of-occurrences-or-frequency-in-a-sorted-array) |
 | 133 | [ Dutch National Flag Problem ](#dutch-national-flag-problem)           |
-| 134 | [ XYZ ](#xyz)          |
-| 135 | [ XYZ ](#xyz)          |
-| 136 | [ XYZ ](#xyz)          |
-| 137 | [ XYZ ](#xyz)          |
-| 138 | [ XYZ ](#xyz)          |
-| 139 | [ XYZ ](#xyz)          |
-| 140 | [ XYZ ](#xyz)          |
+| 134 | [ Balanced Brackets ](#balancedbrackets)          |
+| 135 | [ Largest number in Array ](#largest-number-in-array)          |
+| 136 | [ Count vowels in a string ](#count-vowels-in-a-string)          |
+| 137 | [ Nested Array ](#nested-array)          |
+| 138 | [ Reverse a String ](#reverse-a-string)          |
+| 139 | [ Chain Calculator ](#chain-calculator)          |
+| 140 | [ Remove Duplicates from an Array ](#remove-duplicates-from-an-array)          |
+| 141 | [ Check if Prime number ](#check-if-prime-number)          |
+| 142 | [ Fibonacci Series ](#fibonacci-series)          |
+| 143 | [ XYZ ](#xyz)          |
+| 144 | [ XYZ ](#xyz)          |
+| 145 | [ XYZ ](#xyz)          |
+| 146 | [ XYZ ](#xyz)          |
+| 147 | [ XYZ ](#xyz)          |
+| 148 | [ XYZ ](#xyz)          |
 | 201 | [ Check for Binary](#Check-for-Binary) |                                                           |       
 | 202 | [ Camel Case Conversion](#Camel-Case-Conversion) |                                                 |
 | 203 | [ Binary Substrings with Corners as 1s](#Binary-Substrings-with-Corners-as-1s) |                   |
@@ -1221,7 +1229,7 @@ Explanation: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2} has all 0s first, then all 1s 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-123. ### BalancedBrackets
+123. ### Balanced Brackets
 Check if all brackets are balanced.
 
 Example: 
