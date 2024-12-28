@@ -1601,28 +1601,23 @@ The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and h
     console.log(calculateAngle(12,60));
 
     function calculateAngle(h,m){
-        console.log('hh : ', h, " mm: ", m)
         if(h==12) h=0;
-        if(m==60){m=0; h=h+1;}
-        console.log('NOW hh : ', h, " mm: ", m)
+        if(m==60){
+            m=0; 
+            h=h+1;
+        }
         minuteHandPerMinMove = 360/60;
         hourHandPerHourMove = 360/12;
         hourHandPerMinMove = 360/(12*60);
         
-        console.log("minuteHandPerMinMove : ",minuteHandPerMinMove);
-        console.log("hourHandPerHourMove : ",hourHandPerHourMove);
-        console.log("hourHandPerMinMove : ", hourHandPerMinMove);
-        
         angleHourHand = h * hourHandPerMinMove;
         angleMinHand = m * minuteHandPerMinMove;
-        console.log(angleHourHand, " + ",  angleMinHand)
         totalAngle = angleHourHand + angleMinHand;
         totalAngle = totalAngle > 360 ? totalAngle-360 : totalAngle;
         
-        console.log("Total angle : " , totalAngle)
-        
-        return 'xyz'
+        return totalAngle
     }
+
 
 ```
 
