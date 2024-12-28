@@ -1598,25 +1598,36 @@ The idea is to take 12:00 (h = 12, m = 0) as a reference. Following are detailed
 How to calculate the two angles with respect to 12:00? 
 The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In h hours and m minutes, the minute hand would move (h*60 + m)*6 and hour hand would move (h*60 + m)*0.5. 
 ```javascript
-    console.log(calculateAngle(12,60));
+    console.log(calculateAngle(13,00));
 
     function calculateAngle(h,m){
-        if(h==12) h=0;
+        console.log('Input( hh:mm ) ', h, ":", m)
+        if(h<0 || h>24){
+            return 'Wrong input'
+        }else if(h==12){
+            h = 0;
+        }else if(h>12 && h<24){
+            h = h-12;
+        }
+        
         if(m==60){
             m=0; 
             h=h+1;
         }
-        minuteHandPerMinMove = 360/60;
-        hourHandPerHourMove = 360/12;
-        hourHandPerMinMove = 360/(12*60);
         
-        angleHourHand = h * hourHandPerMinMove;
-        angleMinHand = m * minuteHandPerMinMove;
-        totalAngle = angleHourHand + angleMinHand;
+        perMinMove_minHand = 360/60;
+        perMinMove_hourHand = (360/12)/60;
+        
+        angleOfHourHand = (h*60+m) * perMinMove_hourHand;
+        angleOfMinHand = (h*60+m) * perMinMove_minHand;
+        totalAngle = angleOfHourHand + angleOfMinHand;
         totalAngle = totalAngle > 360 ? totalAngle-360 : totalAngle;
         
-        return totalAngle
+        console.log("Angle between both hands : " , totalAngle)
+        
+        return totalAngle;
     }
+
 
 
 ```
