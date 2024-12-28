@@ -1570,10 +1570,60 @@ Take input = 15. Generate a sequence of 15count. Result should be Result shoud b
 
 **[⬆ Back to Top](#table-of-contents)**
 
-131. ### XYZ 
+131. ### Calculate the angle between hour hand and minute hand
 
+This problem is known as Clock angle problem where we need to find angle between hands of an analog clock at a given time.
+Examples: 
+
+Input:  
+h = 12:00
+m = 30.00
+Output: 
+165 degree
+
+Input:  
+h = 3.00
+m = 30.00
+Output: 
+75 degree 
+
+*TIP : *
+
+The idea is to take 12:00 (h = 12, m = 0) as a reference. Following are detailed steps.
+
+* Calculate the angle made by hour hand with respect to 12:00 in h hours and m minutes. 
+* Calculate the angle made by minute hand with respect to 12:00 in h hours and m minutes. 
+* The difference between the two angles is the angle between the two hands.
+
+How to calculate the two angles with respect to 12:00? 
+The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In h hours and m minutes, the minute hand would move (h*60 + m)*6 and hour hand would move (h*60 + m)*0.5. 
 ```javascript
-   console.log(xyz)
+    console.log(calculateAngle(12,60));
+
+    function calculateAngle(h,m){
+        console.log('hh : ', h, " mm: ", m)
+        if(h==12) h=0;
+        if(m==60){m=0; h=h+1;}
+        console.log('NOW hh : ', h, " mm: ", m)
+        minuteHandPerMinMove = 360/60;
+        hourHandPerHourMove = 360/12;
+        hourHandPerMinMove = 360/(12*60);
+        
+        console.log("minuteHandPerMinMove : ",minuteHandPerMinMove);
+        console.log("hourHandPerHourMove : ",hourHandPerHourMove);
+        console.log("hourHandPerMinMove : ", hourHandPerMinMove);
+        
+        angleHourHand = h * hourHandPerMinMove;
+        angleMinHand = m * minuteHandPerMinMove;
+        console.log(angleHourHand, " + ",  angleMinHand)
+        totalAngle = angleHourHand + angleMinHand;
+        totalAngle = totalAngle > 360 ? totalAngle-360 : totalAngle;
+        
+        console.log("Total angle : " , totalAngle)
+        
+        return 'xyz'
+    }
+
 ```
 
 
