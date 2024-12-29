@@ -1572,60 +1572,76 @@ Take input = 15. Generate a sequence of 15count. Result should be Result shoud b
 
 131. ### Calculate the angle between hour hand and minute hand
 
-This problem is known as Clock angle problem where we need to find angle between hands of an analog clock at a given time.
-Examples: 
+**Logic**
+1. Understand the motion of hands:
 
-Input:  
-h = 12:00
-m = 30.00
-Output: 
-165 degree
+* The hour hand moves 360degree in 12 hours, so it moves:
 
-Input:  
-h = 3.00
-m = 30.00
-Output: 
-75 degree 
+360degree/12hours = 30degree/hour
 
-*TIP : *
+and
 
-The idea is to take 12:00 (h = 12, m = 0) as a reference. Following are detailed steps.
+30degree/60minutes = 0.5degree/minute
 
-* Calculate the angle made by hour hand with respect to 12:00 in h hours and m minutes. 
-* Calculate the angle made by minute hand with respect to 12:00 in h hours and m minutes. 
-* The difference between the two angles is the angle between the two hands.
+* The minute hand moves 360degree in 60minutes, so it moves:
 
-How to calculate the two angles with respect to 12:00? 
-The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In h hours and m minutes, the minute hand would move (h*60 + m)*6 and hour hand would move (h*60 + m)*0.5. 
+360degree/60minutes = 6degree/minute
+
+2. Calculate positions of both hands:
+
+* For the hour hand, its position in degrees from 12 o'clock is:
+Hour hand angle=(Hours×30)+(Minutes×0.5).
+
+* For the minute hand, its position in degrees from 12 o'clock is:
+Minute hand angle=Minutes×6.
+
+3. Find the difference:
+
+* The absolute difference between the two angles gives the angle between the hands:
+Angle=∣Hour hand angle−Minute hand angle∣.
+
+4. Account for the smaller angle:
+
+The clock forms a full circle (360degree). If the calculated angle is more than 180 degree, subtract it from 360degree to get the smaller angle.
+
 ```javascript
-    console.log(calculateAngle(13,00));
+    console.log(calculateAngle(01,10));
 
     function calculateAngle(h,m){
         console.log('Input( hh:mm ) ', h, ":", m)
-        if(h<0 || h>24){
+        if(h <0 || m <0 || h >24 || m >60){
             return 'Wrong input'
-        }else if(h==12){
-            h = 0;
-        }else if(h>12 && h<24){
-            h = h-12;
+        }
+        if(h == 12){ h = 0; }
+        if(h > 12){ h = h-12; }
+        if(m == 60){
+            m = 0;
+            h = h+1;
         }
         
-        if(m==60){
-            m=0; 
-            h=h+1;
-        }
+        const perMinMove_minHand = 360/60;
+        const perMinMove_hourHand = (360/12)/60;
+        const perHourMove_hourHand = 360/12;
         
-        perMinMove_minHand = 360/60;
-        perMinMove_hourHand = (360/12)/60;
+        angleOfHourHand = (m * perMinMove_hourHand) +  (h*perHourMove_hourHand);
+        angleOfMinHand = m*perMinMove_minHand ;
+        angleBetweenHands = angleOfHourHand - angleOfMinHand;
+        angleBetweenHands = modulus(angleBetweenHands)
+        angleBetweenHands = _360degreeFormat(angleBetweenHands);
         
-        angleOfHourHand = (h*60+m) * perMinMove_hourHand;
-        angleOfMinHand = (h*60+m) * perMinMove_minHand;
-        totalAngle = angleOfHourHand + angleOfMinHand;
-        totalAngle = totalAngle > 360 ? totalAngle-360 : totalAngle;
+        console.log("Angle between both hands : " , angleBetweenHands)
         
-        console.log("Angle between both hands : " , totalAngle)
-        
-        return totalAngle;
+        return angleBetweenHands;
+    }
+
+    function modulus(x){
+        if(x<1) x=x*-1;
+        return x;
+    }
+
+    function _360degreeFormat(x){
+        if (x>360) x=360-x;
+        return x;
     }
 
 
