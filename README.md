@@ -1653,16 +1653,134 @@ The clock forms a full circle (360degree). If the calculated angle is more than 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-124. ### XYZ 
+132. ### Sieve of Eratosthenes
+Given a number n, print all primes smaller than or equal to n. It is also given that n is a small number.  
 
 ```javascript
-   console.log(xyz)
+    // Sieve of Eratosthenes
+    console.log(printAllPrimes(100))
+
+    function printAllPrimes(num){
+        let primes = [1,2,3];
+        for(let i=4; i<=num; i++){
+            let isPrime = checkIfPrime(i);
+            if(isPrime) {
+                primes.push(i)
+            }
+        }
+        return primes;
+    }
+
+    function checkIfPrime(num){
+        for(let i=2; i<num; i++){
+            if(num%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
 ```
 
 
 
 
 **[⬆ Back to Top](#table-of-contents)**
+
+133. ### Rearrange an array such that arr[i] = i
+Given an array of elements of length n, ranging from 0 to n – 1. All elements may not be present in the array. If the element is not present then there will be -1 present in the array. Rearrange the array such that arr[i] = i and if i is not present, display -1 at that place.
+
+```javascript
+    console.log(rearrange([-1, -1, 6, 1, 9, 3, 2, -1, 4, -1]))
+
+    function rearrange(arr){
+        let temp= [];
+        for(let i=0; i<arr.length; i++){
+            temp[i]=-1;                         //Put -1 in all places by default
+            if(arr[i]!==-1){                    //If arr[i]=i, put it in that place
+                temp[arr[i]]=arr[i]
+            }
+        }
+        return temp;
+    }
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+133. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 201. ### BASIC DATASTRUCTURE INTERVIEW QUESTIONS
 --------------------------------------------------------------------------------------------------------------------------
