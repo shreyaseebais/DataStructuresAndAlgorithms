@@ -6,7 +6,7 @@
 | --- | ------------------------------------------------------------------------------------------------| 
 | 1 | [ Data Structure ](#what-is-a-data-structure)                                                       |
 | 2 | [ Algorithm ](#what-is-an-algorithm)                                                                |
-| 3 | [ Time Complexity ](#)                                                                                             |
+| 3 | [ Time Complexity ](#time-complexity)                                                                                             |
 | 4 | [](#)                                                                                              |
 | 5 | [](#)                                                                                               |
 | 7 | [](#)                                                                                               |
@@ -175,14 +175,17 @@ An algorithm is a step-by-step procedure or formula for solving a problem. It ta
 **[⬆ Back to Top](#table-of-contents)**
 
 3. ### Time Complexity
----
 <div>
 <p align="center">
     <img src="./images/timeComplexity.png" alt="TimeComplexity" width="70%">
 </p>
 </div>
----
---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
 
 101. ### Check Even or Odd
 ```javascript
