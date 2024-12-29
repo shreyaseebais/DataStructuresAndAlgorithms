@@ -1696,6 +1696,8 @@ Given an array of elements of length n, ranging from 0 to n – 1. All elements 
         let temp= [];
         for(let i=0; i<arr.length; i++){
             temp[i]=-1;                         //Put -1 in all places by default
+        }
+        for(let i=0; i<arr.length; i++){
             if(arr[i]!==-1){                    //If arr[i]=i, put it in that place
                 temp[arr[i]]=arr[i]
             }
