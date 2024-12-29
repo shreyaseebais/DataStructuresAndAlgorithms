@@ -4,9 +4,9 @@
 
 | No. | Questions                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------| 
-| 1 | [Data Structure](#what-is-a-data-structure)                                                       |
-| 2 | [Algorithm](#what-is-an-algorithm)                                                                |
-| 3 | [](#)                                                                                             |
+| 1 | [ Data Structure ](#what-is-a-data-structure)                                                       |
+| 2 | [ Algorithm ](#what-is-an-algorithm)                                                                |
+| 3 | [ Time Complexity ](#)                                                                                             |
 | 4 | [](#)                                                                                              |
 | 5 | [](#)                                                                                               |
 | 7 | [](#)                                                                                               |
@@ -174,6 +174,14 @@ An algorithm is a step-by-step procedure or formula for solving a problem. It ta
 
 **[⬆ Back to Top](#table-of-contents)**
 
+3. ### Time Complexity
+---
+<div>
+<p align="center">
+    <img src="./images/timeComplexity.png" alt="TimeComplexity" width="70%">
+</p>
+</div>
+---
 --------------------------------------------------------------------------------------------------------------------------
 
 101. ### Check Even or Odd
@@ -1784,8 +1792,50 @@ xyz
 **[⬆ Back to Top](#table-of-contents)**
 
 
-201. ### BASIC DATASTRUCTURE INTERVIEW QUESTIONS
+### LEETCODE QUESTIONS
 --------------------------------------------------------------------------------------------------------------------------
+
+
+201. ### Merge Sorted Array
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+202. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+203. ### xyz
+xyz
+
+```javascript
+    console.log(print)
+```
+
+
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+
+301. ### MORE QUESTIONS :
+
 1. Array Questions
 * What is an array? How is it different from a linked list?
 * How do you find the largest/smallest element in an array?
@@ -1853,5 +1903,6 @@ xyz
 * What are the applications of different data structures (e.g., stack, queue, tree, graph)?
 * How do you measure the efficiency of an algorithm (time complexity and space complexity)?
 * What is a dynamic data structure, and how is it different from a static one?
+
 
 **[⬆ Back to Top](#table-of-contents)**
