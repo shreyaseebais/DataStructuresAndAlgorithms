@@ -853,20 +853,22 @@ Given an array, write a program to find the sum of values of even and odd index 
 
 112. ### Write a program for Decimal to Binary Conversion
 
-Given a decimal number as input, we need to write a program to convert the given decimal number into an equivalent binary  number.
+Given a decimal number as input, we need to write a program to convert the given decimal number into an equivalent binary number.
 
 For Example: 
+
 We are converting Base10 to Base2.
 If the decimal number is 125
 Keep dividing it by 2 and note the remainder.
 Now collect the remainder from bottom to top. This is binary number.
----
+
+
 <div>
 <p align="center">
     <img src="./images/decimalTobinary.png" alt="DecimalToBinary" width="70%">
 </p>
 </div>
----
+
 
 ```javascript
     console.log(decToBinary(125));
