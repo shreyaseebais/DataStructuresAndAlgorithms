@@ -718,7 +718,7 @@ Eg. 6, 28, 496, 8128, 33550336, 8589869056, and 137438691328 are few perfect num
 
 **[⬆ Back to Top](#table-of-contents)**
 
-108. ### Add two fractions
+119. ### Add two fractions
 
 Add two fraction a/b and c/d and print answer in simplest form.
 
@@ -800,7 +800,7 @@ Reduce the final fraction obtained into its simpler form by dividing both numera
 
 **[⬆ Back to Top](#table-of-contents)**
 
-109. ### Fraction to Recurring Decimal
+120. ### Fraction to Recurring Decimal
 
 Given two integers a and b(b != 0), the task is to return the fraction a/b in string format. If the fractional part is repeating, enclose the repeating part in parentheses.
 
@@ -813,7 +813,7 @@ Given two integers a and b(b != 0), the task is to return the fraction a/b in st
 
 **[⬆ Back to Top](#table-of-contents)**
 
-110. ### Find Recurring Sequence in a Fraction 
+121. ### Find Recurring Sequence in a Fraction 
 Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 ```javascript
    
@@ -824,7 +824,7 @@ Given a fraction, find a recurring sequence of digits if it exists, otherwise, p
 **[⬆ Back to Top](#table-of-contents)**
 
 
-111. ### Write a program to print Sum of even and odd elements in an array 
+122. ### Write a program to print Sum of even and odd elements in an array 
 Given an array, write a program to find the sum of values of even and odd index positions separately.
 ```javascript
     let inputArr = [1, 2, 3, 4, 5, 6]; 
@@ -851,7 +851,7 @@ Given an array, write a program to find the sum of values of even and odd index 
 **[⬆ Back to Top](#table-of-contents)**
 
 
-112. ### Write a program for Decimal to Binary Conversion
+123. ### Write a program for Decimal to Binary Conversion
 
 Given a decimal number as input, we need to write a program to convert the given decimal number into an equivalent binary number.
 
@@ -892,7 +892,7 @@ Now collect the remainder from bottom to top. This is binary number.
 **[⬆ Back to Top](#table-of-contents)**
 
 
-113. ### Write a program to calculate distance between two points
+124. ### Write a program to calculate distance between two points
 You are given two coordinates (x1, y1) and (x2, y2) of a two-dimensional graph. Find the distance between them.
 
 Eg. 
@@ -922,7 +922,7 @@ Distance = sqrt{(x2-x1)^{2} + (y2-y1)^{2}}
 **[⬆ Back to Top](#table-of-contents)**
 
 
-114. ### Program for Armstrong Numbers
+125. ### Program for Armstrong Numbers
 Given a number x, determine whether the given number is Armstrong’s number or not.
 
 A positive integer of n digits is called an Armstrong number of order n (order is the number of digits) if
@@ -953,7 +953,7 @@ Output: No
 **[⬆ Back to Top](#table-of-contents)**
 
 
-115. ### Maximum and minimum of an array using minimum number of comparisons
+126. ### Maximum and minimum of an array using minimum number of comparisons
 Given an array of size N. The task is to find the maximum and the minimum element of the array using the minimum number of comparisons.
 
 Examples:
@@ -1000,7 +1000,7 @@ Output:  Minimum element is: 3
 **[⬆ Back to Top](#table-of-contents)**
 
 
-116. ### Array Reverse 
+127. ### Array Reverse 
 Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
 
 Given an array arr[], the task is to reverse the array. Reversing an array means rearranging the elements such that the first element becomes the last, the second element becomes second last and so on.
@@ -1036,7 +1036,7 @@ Explanation: The first element 4 moves to last position, the second element 5 mo
 
 **[⬆ Back to Top](#table-of-contents)**
 
-117. ### Program to cyclically rotate an array by one
+128. ### Program to cyclically rotate an array by one
 Given an array, the task is to cyclically rotate the array clockwise by one time. 
 
 Examples:  
@@ -1072,7 +1072,7 @@ Hint: Assign every element with its previous element and first element with the 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-118. ### Array Sorting 
+129. ### Array Sorting 
 Sorting an array means arranging the elements of the array in a certain order. Generally sorting in an array is done to arrange the elements in increasing or decreasing order.
 
 Problem statement: Given an array of integers arr, the task is to sort the array in ascending order and return it, without using any built-in functions.
@@ -1116,7 +1116,7 @@ Output: [1, 1, 2, 2, 3, 4, 5]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-119. ### Find duplicate elements in an array
+130. ### Find duplicate elements in an array
 Given an array of n integers. The task is to find all elements that have more than one occurrences. The output should only be one occurrence of a number irrespective of the number of occurrences in the input array.
 
 Examples: 
@@ -1154,7 +1154,7 @@ Output: {5, 40, 1}
 
 **[⬆ Back to Top](#table-of-contents)**
 
-120. ### Find distinct values from array.
+131. ### Find distinct values from array.
 
 Example: 
 
@@ -1182,7 +1182,7 @@ Output: [ 10, 100, 2, 11 ]
 
 **[⬆ Back to Top](#table-of-contents)**
 
-121. ### Count number of occurrences (or frequency) in a sorted array
+132. ### Count number of occurrences (or frequency) in a sorted array
 
 Given a sorted array arr[] and an integer target, the task is to find the number of occurrences of target in given array.
 
@@ -1218,7 +1218,7 @@ Explanation: 4 is not present in the given array.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-122. ### Dutch National Flag Problem
+133. ### Dutch National Flag Problem
 
 *Sort an array of 0s, 1s and 2s*
 
@@ -1249,7 +1249,7 @@ Explanation: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2} has all 0s first, then all 1s 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-123. ### Balanced Brackets
+134. ### Balanced Brackets
 Check if all brackets are balanced.
 
 Example: 
@@ -1300,7 +1300,7 @@ function areBracketsBalanced(str){
 **[⬆ Back to Top](#table-of-contents)**
 
 
-124. ### Largest number in Array
+135. ### Largest number in Array
 Find largest number in a given array
 
 ```javascript
@@ -1337,7 +1337,7 @@ Find largest number in a given array
 
 **[⬆ Back to Top](#table-of-contents)**
 
-125. ### Count vowels in a string
+136. ### Count vowels in a string
 Write a program to count number of vowels in given string
 
 ```javascript
@@ -1373,7 +1373,7 @@ Write a program to count number of vowels in given string
 
 **[⬆ Back to Top](#table-of-contents)**
 
-125. ### Nested Array
+137. ### Nested Array
 Write a program to flatten a nested array.
 [[2,3],[2,6,7,9],87,12,[23,[56,22,[45,66,78]]]]
 
@@ -1422,7 +1422,7 @@ Using reduce method:
 
 **[⬆ Back to Top](#table-of-contents)**
 
-126. ### Reverse a String
+138. ### Reverse a String
 Write a program to reverse a string
 
 
@@ -1448,7 +1448,7 @@ console.log('Using for loop : ', result)
 
 **[⬆ Back to Top](#table-of-contents)**
 
-127. ### Chain Calculator
+139. ### Chain Calculator
 Write a program to make a chain calculator in javascript
 
 ```javascript
@@ -1508,7 +1508,7 @@ class ChainCalculator {
 
 **[⬆ Back to Top](#table-of-contents)**
 
-128. ### Remove Duplicates from an Array
+140. ### Remove Duplicates from an Array
 Write a program to remove duplicates from an array 
 [1,4,5,6,98,56,76,22,98,5]
 
@@ -1541,7 +1541,7 @@ Write a program to remove duplicates from an array
 
 **[⬆ Back to Top](#table-of-contents)**
 
-129. ### Check if Prime number
+141. ### Check if Prime number
 Write a program to check if given number is prime or not.
 
 ```javascript
@@ -1565,7 +1565,7 @@ Write a program to check if given number is prime or not.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-130. ### Fibonacci Series
+142. ### Fibonacci Series
 Write a program to generate a fibonacci series for n numbers given.
 Take input = 15. Generate a sequence of 15count. Result should be Result shoud be [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377]
 
@@ -1590,7 +1590,7 @@ Take input = 15. Generate a sequence of 15count. Result should be Result shoud b
 
 **[⬆ Back to Top](#table-of-contents)**
 
-131. ### Calculate the angle between hour hand and minute hand
+143. ### Calculate the angle between hour hand and minute hand
 
 **Logic**
 1. Understand the motion of hands:
@@ -1673,7 +1673,7 @@ The clock forms a full circle (360degree). If the calculated angle is more than 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-132. ### Sieve of Eratosthenes
+144. ### Sieve of Eratosthenes
 Given a number n, print all primes smaller than or equal to n. It is also given that n is a small number.  
 
 ```javascript
@@ -1706,7 +1706,7 @@ Given a number n, print all primes smaller than or equal to n. It is also given 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### Rearrange an array such that arr[i] = i
+145. ### Rearrange an array such that arr[i] = i
 Given an array of elements of length n, ranging from 0 to n – 1. All elements may not be present in the array. If the element is not present then there will be -1 present in the array. Rearrange the array such that arr[i] = i and if i is not present, display -1 at that place.
 
 ```javascript
@@ -1731,7 +1731,7 @@ Given an array of elements of length n, ranging from 0 to n – 1. All elements 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+146. ### xyz
 xyz
 
 ```javascript
@@ -1743,7 +1743,7 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+147. ### xyz
 xyz
 
 ```javascript
@@ -1755,7 +1755,7 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+148. ### xyz
 xyz
 
 ```javascript
@@ -1767,7 +1767,7 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+149. ### xyz
 xyz
 
 ```javascript
@@ -1779,7 +1779,7 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+150. ### xyz
 xyz
 
 ```javascript
@@ -1791,7 +1791,7 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-133. ### xyz
+151. ### xyz
 xyz
 
 ```javascript
