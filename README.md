@@ -586,11 +586,6 @@ function highestCommonFactor(x,y){
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
-
-
-
-
 116. ###  Find LCM of two numbers
 
 LCM of two numbers is the smallest number which can be divided by both numbers. 
@@ -848,8 +843,8 @@ Given an array, write a program to find the sum of values of even and odd index 
 
 
 
-**[⬆ Back to Top](#table-of-contents)**
 
+**[⬆ Back to Top](#table-of-contents)**
 
 123. ### Write a program for Decimal to Binary Conversion
 
@@ -889,8 +884,8 @@ Now collect the remainder from bottom to top. This is binary number.
 
 
 
-**[⬆ Back to Top](#table-of-contents)**
 
+**[⬆ Back to Top](#table-of-contents)**
 
 124. ### Write a program to calculate distance between two points
 You are given two coordinates (x1, y1) and (x2, y2) of a two-dimensional graph. Find the distance between them.
@@ -919,8 +914,8 @@ Distance = sqrt{(x2-x1)^{2} + (y2-y1)^{2}}
 
 
 
-**[⬆ Back to Top](#table-of-contents)**
 
+**[⬆ Back to Top](#table-of-contents)**
 
 125. ### Program for Armstrong Numbers
 Given a number x, determine whether the given number is Armstrong’s number or not.
@@ -951,7 +946,6 @@ Output: No
 
 
 **[⬆ Back to Top](#table-of-contents)**
-
 
 126. ### Maximum and minimum of an array using minimum number of comparisons
 Given an array of size N. The task is to find the maximum and the minimum element of the array using the minimum number of comparisons.
@@ -997,8 +991,8 @@ Output:  Minimum element is: 3
 
 
 
-**[⬆ Back to Top](#table-of-contents)**
 
+**[⬆ Back to Top](#table-of-contents)**
 
 127. ### Array Reverse 
 Given a fraction, find a recurring sequence of digits if it exists, otherwise, print “No recurring sequence”.
@@ -1180,6 +1174,7 @@ Output: [ 10, 100, 2, 11 ]
 
 
 
+
 **[⬆ Back to Top](#table-of-contents)**
 
 132. ### Count number of occurrences (or frequency) in a sorted array
@@ -1298,7 +1293,6 @@ function areBracketsBalanced(str){
 
 
 **[⬆ Back to Top](#table-of-contents)**
-
 
 135. ### Largest number in Array
 Find largest number in a given array
@@ -1729,13 +1723,29 @@ Given an array of elements of length n, ranging from 0 to n – 1. All elements 
 
 
 
+
 **[⬆ Back to Top](#table-of-contents)**
 
-146. ### xyz
-xyz
+146. ### Find sum(1)(2)(3)(4)(5).............()
 
 ```javascript
-    console.log(print)
+    let sum = function(a){
+        return function(b){
+            if(b){
+                return sum(a+b)
+            }else{
+                return a
+            }
+        }
+    }
+
+    // let sum = a => b => return b? sum(a+b) : a;                  // ES6 version for above code.
+
+    let result = sum(1)(2)(3)(4)(5);
+    console.log(result())
+
+    let result2 = sum(1)(2)(3)(4)(5)(6)(7)(8)(9);
+    console.log(result2())
 ```
 
 
@@ -1743,11 +1753,40 @@ xyz
 
 **[⬆ Back to Top](#table-of-contents)**
 
-147. ### xyz
-xyz
+147. ### Convert a nested object to flat object
+
 
 ```javascript
-    console.log(print)
+     let user = {
+        name: "Shreyasee",
+        address:{
+            personal:{
+                city: "Pune",
+                area: "Hinjewadi"
+            },
+            office:{
+                city: "Pune",
+                area: "Kharadi"
+            }
+        }
+    }
+
+    let finalObject = {};
+
+    let magic = (obj, parent) => {
+        for(let key in obj){
+            if(typeof obj[key] == 'object'){
+                magic(obj[key], (parent+'_'+key))
+            }else{
+                finalObject[parent+'_'+key]= obj[key]
+            }
+        }
+        return finalObject;
+    }
+
+
+    let result = magic(user, "user")
+    console.log(result)
 ```
 
 
