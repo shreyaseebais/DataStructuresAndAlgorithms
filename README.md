@@ -1794,11 +1794,20 @@ Given an array of elements of length n, ranging from 0 to n – 1. All elements 
 
 **[⬆ Back to Top](#table-of-contents)**
 
-148. ### xyz
-xyz
+148. ### Reverse each word without reversing the sentence
 
 ```javascript
-    console.log(print)
+    function reverseWords(str) {
+    return str
+        .split(" ") // Split the string into words
+        .map(word => word.split("").reverse().join("")) // Reverse each word
+        .join(" "); // Join the words back into a string
+    }
+
+    const input = "Hello there, I'm doing good in JS";
+    const output = reverseWords(input);
+    console.log(output); // Output: "olleH ,ereht m'I gniod doog ni SJ"
+
 ```
 
 
